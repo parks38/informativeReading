@@ -54,7 +54,7 @@
   - :star: 오버라이드된 메서드가 객체를 반환하는 패턴
   - DIP 활용
  
-* Strategy Pattern : 
+* Strategy Pattern :  :star: :star: :star:
   - :star: 클라이언트가 전략을 생성해 전략을 실행할 컨텍스트에 주입하는 패턴
   - 중요 요소
     - 전략 메서드를 가진 전략 객체
@@ -64,4 +64,10 @@
   - 템플릿 패턴과 유사
   - 같은 문제의 해결책 -> 상속 템플렛 패턴 / 객체 주입 통한 전략 패턴  
     - 단일 상속 가능한 자바 -> 전력 패턴 활용
+  - OCP 와 DIP 적용 
+
+* Template callback Pattern : :star: :star: :star:
+  - 스프링 DI 에서 사용하는 패턴 
+  - Strategy Pattern + 익명 내부 클래스 활용
+  - context안에 strategy 객체 생성해서 넣는다. 
   - OCP 와 DIP 적용 
