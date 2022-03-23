@@ -1,4 +1,4 @@
-# informativeReading
+# Developer Reading List
 개발 관련 서적들 정리 
 
 |제목|스택|설명|
