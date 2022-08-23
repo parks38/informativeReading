@@ -1,0 +1,39 @@
+## Chapter 1 
+---
+자바에서 가장 큰 변화는 java8 에서 시작함
+- lambda EX. SORT 
+- 멀티코어 CPU 대중화 (하드웨어 변화)
+	- 이전 : 
+		- java 1.0: 스레드, 락, 메모리 모델 지원 
+		- java5 : thread pool / concurrent collection
+		- java 7 : 병렬 실행 (fork/ join framework)
+	- java8: 
+		- stream API
+			- 데이터베이스 질의 언어에서 고수준 언어로 동작 구현 에서 최적의 저수준 실행 방법을 선태하는 방법으로 동작 
+			- 멀티코어 CPU (에러 발생) 보다 비용이 비싼 `SYNCHORNIZED` 사용 x  
+		- 메서드에 코드를 전달하는 기법
+			- 메서드 참조와 람다 
+			- 간결한 방법으로 동작 (BEHAVIOR PARAMETERIZATION) 구현 
+		- 인터페이스의 <U>디폴트 메서드 </U>
+		- `FUNCATIONAL PROGRAMMING`
+	- java 9 : reactive programming (병렬 실행 기법)  RxJava
+
+
+#### | Stream Process 
+* 한번에  한개씩 만들어지는 연속적인 데이터 항목들의 모음 
+* 스트림 동작 방법 
+	* 여러 행의 스트림을 입력 받아 여러 행의 스트림을 출력 
+	* 자동차 생산 공장과 같이 한개씩 처리하지만 작업장에서는 동시에 작업 처리 
+	* ⭐ (데이터 베이스 질의 처럼) 고수준으로 추상화해서 스트림으로 처리 
+	* 스트림 파이프 라인 이용 여러 CPU 코어에 쉽게 할당 
+	* (공짜) 병렬성 
+
+#### | BEHAVIORAL PARAMETERIZATION 로 메서드 코드 전달
+* 코드 일부를  API 로 전달하는 기능
+
+#### | 병렬성과 공유 가변 데이터 
+* 동시에 안전하게 실행하기 위해 `공유된 가변 데이터` ( `SHARED MULTIPLE DATA`) 에 접근하지 않아야 함. 
+	* 순수 함수
+	* 부작용 없는 함수
+	* 상태 없는 함수 
+
