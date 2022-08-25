@@ -111,7 +111,7 @@ public class ParallelExample {
 
 #### | BEHAVIORAL PARAMETERIZATION 로 메서드 코드 전달
 * 코드 일부를  API 로 전달하는 기능
-![[Pasted image 20220825130059.png]]
+Pasted image 20220825130059.png
  => https://dev-kani.tistory.com/36
 
 #### | 병렬성과 공유 가변 데이터 
