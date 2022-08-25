@@ -28,8 +28,91 @@
 	* 스트림 파이프 라인 이용 여러 CPU 코어에 쉽게 할당 
 	* (공짜) 병렬성 
 
+- stream api -> paralellStream() 이용해 stream 객체 생성해서 병렬 처리 
+	- 대량의 데이터 병렬 처리 코드 작성 
+```java
+public class ParallelReduceMinMax {
+    public static void main(String[] args) {
+        List<Integer> intList = Arrays.asList(4, 2, 8, 1, 9, 6, 7, 3, 5);
+ 
+        // 최대 값 구하기 - 병렬
+        int max = intList.parallelStream().reduce(1, Integer::max);
+        System.out.printf("최대값 : %s\n", max);
+ 
+        // 최소 값 구하기 - 병렬
+        int min = intList.parallelStream().reduce(1, Integer::min);
+        System.out.printf("최소값 : %s\n", min);
+    }
+}
+```
+- 내부 확인
+	- 몇개의 스레드와 어떤 이름으로 반영 되는지 확인 
+```java
+package org.example.streamparallel;
+ 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+ 
+public class InsideParallelStream {
+ 
+    public static void main(String[] args) {
+        List<Integer> intList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+ 
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+ 
+        // 스트림 내부의 쓰레드 값을 구함.
+        intList.parallelStream().forEach(value -> {
+            // 현재 쓰레드 이름을 구함.
+            String threadName = Thread.currentThread().getName();
+ 
+            /* 스레드 이름과 데이터 값을 출력한다. */
+            LocalDateTime currentTime = LocalDateTime.now();
+            System.out.printf(currentTime.format(formatter) + " -> Thread Name : %s, Stream Value : %s\n", threadName, value);
+ 
+            // 시간 확인을 위해 2초간 sleep 함
+            try {
+                TimeUnit.SECONDS.sleep(2);
+            } catch (InterruptedException e) {}
+        });
+    }
+}
+```
+
+- 순차처리 스트림/ 병렬처리 스트림 비교 
+```java
+public class ParallelExample { 
+	public static void main(String[] args) { 
+		
+		List<String> list =
+			 Arrays.asList("홍길동","신용권","뷰티풀","김거거","누누누");
+		long start = 0, end = 0; //속도 비교를 위해 
+		
+		//순차처리 start = System.currentTimeMillis(); 
+		Stream<String> stream = list.stream(); 
+		stream.forEach(ParallelExample::print); 
+		end = System.currentTimeMillis(); 
+		System.out.println(end-start); //56~ 61 정도 나옴.
+		
+		//병렬처리 start = System.currentTimeMillis(); 
+		Stream<String> parallelStream = list.parallelStream();
+		parallelStream.forEach(ParallelExample::print); 
+		end = System.currentTimeMillis(); 
+		System.out.println(end-start); //5~6 정도 나옴 
+	} 
+	
+	public static void print(String str) { 
+		System.out.println(str+ " : "+Thread.currentThread().getName());
+	} 
+}
+```
+
 #### | BEHAVIORAL PARAMETERIZATION 로 메서드 코드 전달
 * 코드 일부를  API 로 전달하는 기능
+![[Pasted image 20220825130059.png]]
+ => https://dev-kani.tistory.com/36
 
 #### | 병렬성과 공유 가변 데이터 
 * 동시에 안전하게 실행하기 위해 `공유된 가변 데이터` ( `SHARED MULTIPLE DATA`) 에 접근하지 않아야 함. 
