@@ -7,9 +7,20 @@
         "id": "2abe90bc02b76ab7",
         "type": "leaf",
         "state": {
+          "type": "diff-view",
+          "state": {
+            "file": "modern_java_in_action/chapter 1.md",
+            "staged": false
+          }
+        }
+      },
+      {
+        "id": "9b5d95501a5010af",
+        "type": "leaf",
+        "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "modern_java_in_action/chapter 1.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "modern_java_in_action/chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "modern_java_in_action/chapter 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,17 +128,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "modern_java_in_action/chapter 1.md"
               }
             }
+          },
+          {
+            "id": "18d9894e7f00a3af",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "cee2a6ba06aaaf86",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 253
   },
-  "active": "2abe90bc02b76ab7",
-  "lastOpenFiles": []
+  "active": "9b5d95501a5010af",
+  "lastOpenFiles": [
+    "modern_java_in_action/chapter 1.md",
+    "README.md"
+  ]
 }
