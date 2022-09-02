@@ -70,8 +70,7 @@ public interface Stream<T> extends BaseStream<T, Stream<T>> {
 			* 변경이 발생하는 부분을 `추상화` 하여 분리 
 			
 
-✅ 예시 
-![[Pasted image 20220830132354.png]]
+✅ 예시 ![[Screen Shot 2022-09-02 at 7.31.50 PM.png]]
 
 * strategy : 인터페이스나 추상 클래스로 외부에서 동일한 방식으로 알고리즘을 호출 방법 명시
 * ConcreateStrategy 1,2,3 : strategy pattern에 명시한 알고리즘을 실제로 구현
@@ -95,12 +94,16 @@ List<Apple> redApples = filterApple(inventory, new ApplePredicate() {
 ```
 
 ** 추가 
- [이펙티브 자바 3판] 아이템 42. 익명 클래스보다는 람다를 사용하라
- - 익명 클래스 방식은 코드가 길기 떄문에 함수형 프로그래밍 (functional programming) 에 적합하지 않음. 
- - https://madplay.github.io/post/prefer-lambdas-to-anonymous-classes
+ [이펙티브 자바 3판] 
+ * 아이템 42. 익명 클래스보다는 람다를 사용하라
+	 - 익명 클래스 방식은 코드가 길기 떄문에 함수형 프로그래밍 (functional programming) 에 적합하지 않음. 
+	 - https://madplay.github.io/post/prefer-lambdas-to-anonymous-classes
+* 43. 람다 보다는 메서드 참조를 이용해라 
+	* 메서드 참조 쪽이 짧고 명확하다면 메서드 참조를 쓰고, 그렇지 않을 때만 람다를 사용하라.
+	* https://jinseongsoft.tistory.com/208
 
 #### | 람다 표현식 사용 
-![[Pasted image 20220831102901.png]]
+
 ```java
 	List<Apple> result = filterApples(inventory, 
 		(Apple apple) -> RED.equals(apple.getColor()));
@@ -108,8 +111,102 @@ List<Apple> redApples = filterApple(inventory, new ApplePredicate() {
 
 #### | 리스트 형태를 추상화 
 
+```java
+public interface Predicate<T> {
+	boolean test(T t);
+}
 
+// 추상화 
+public static<T> List<T> filter(List<T> list, Predicate<T> p) {
+	List<T> result = new ArrayList<>();
+	for(T e: list) {
+		if (p.test(e)) {
+			result.add(e);
+		}
+	}
+}
+
+// example
+List<Apple> redApples = filter(inventory, 
+				(Apple apple) -> RED.equals(apple.getColor()));
+```
 
 [참고 자료]
 - https://dev0101.tistory.com/36
-- 
+
+#### | 실전 예제 
+> Comparator 
+
+```java
+	//java.util.Comparator
+	public interface Comparator<T> {
+		int compare(T o1, T o2);
+	}
+	
+	inventory.sort((Apple a1, Apple a2) -> 
+					   a1.getWeight().compareTo(a2.getWeight()))
+```
+
+> Runnable 
+* 자바 스레드를 통해 병렬 코드 블럭 실행 
+```java
+	//java.lang.Runnable
+	public interface Runnable {
+		void run();
+	}
+	
+	Thread t = new Thread(new Runnable() {
+		public void run() {
+			sout("hello word");
+		}
+	});
+	
+	Thread t = new Thread(() -> sout("hello world"));
+```
+
+> Callable 
+
+* `ExecutorService`
+	* 태스크 제출과 실행 과정의 연관성을 끈어줌. 
+	* 태스크를 스레드 풀로 보내고 결과를 Future 로 저장 (Thread/ Runnable 과 차이점)
+	
+```java
+	//java.util.concurrent.Callable
+	public interface Callable<V> {
+		V call();
+	}
+
+	ExecutorService es = Executors.newCachedThreadPool();
+	Future<String> threadName = es.submit(new Callable<String>() {
+		@Overrid
+		public String call() throws Exception {
+			return Thread.currentThread().getName();
+		}
+	})
+
+	// lambda 이용
+	Future<String> threadName = 
+		es.submit(() -> Thread.currentThread().getName());
+```
+
+> GUI Event 
+* 마우스 클랙/ 문자열 위로 이동하는 이벤트에 대응하는 동작 수행하는 식
+* `javaFX -> .onSetAction()` `EventHandler` 전달하며 이벤트 반응 설정 가능 
+```java
+	Button button = new Button("Send");
+	button.setOnAction(new EventHandler<ActionEvent>() {
+		public void handle (ActionEvent action) {
+			label.setText("sent!!");	
+		}
+	})
+
+	// lambda 변환
+	button.setOnAction((ActionEvent event) -> label.setText("Sent!"));
+```
+
+##### | 정리 
+* 동작 파라미터화는 
+	* 메서드 내부적으로 다양한 동작을 수행할 수 있도록 코드를 메서드 인수로 전달
+	* 변화하는 요구사항에 더 잘 대응하며 엔지니어링 비용 줄여줌
+* 코드 전달 기법 사용시 동적울 메서드의 인수로 전달
+* 자바 API => 동작으로 파라미터화 : sort, Thread, GUI 처리 가능 
