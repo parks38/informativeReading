@@ -3,5 +3,7 @@
   "calendar",
   "obsidian-admonition",
   "templater-obsidian",
-  "obsidian-emoji-toolbar"
+  "obsidian-emoji-toolbar",
+  "table-editor-obsidian",
+  "obsidian-kanban"
 ]

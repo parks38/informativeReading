@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2abe90bc02b76ab7",
-        "type": "leaf",
-        "state": {
-          "type": "diff-view",
-          "state": {
-            "file": "modern_java_in_action/chapter 1.md",
-            "staged": false
-          }
-        }
-      },
-      {
-        "id": "9b5d95501a5010af",
+        "id": "6369e1981c0eaf72",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "modern_java_in_action/chapter 1.md",
+            "file": "algo_practice/성격_유형_검사하기.md",
             "mode": "source",
             "source": false
           }
@@ -72,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 146
   },
   "right": {
     "id": "7aa96f3acc9c8664",
@@ -88,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "modern_java_in_action/chapter 1.md",
+                "file": "algo_practice/성격_유형_검사하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "modern_java_in_action/chapter 1.md",
+                "file": "algo_practice/성격_유형_검사하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "modern_java_in_action/chapter 1.md"
+                "file": "algo_practice/성격_유형_검사하기.md"
               }
             }
           },
@@ -155,9 +144,17 @@
     "direction": "horizontal",
     "width": 253
   },
-  "active": "9b5d95501a5010af",
+  "active": "6369e1981c0eaf72",
   "lastOpenFiles": [
-    "modern_java_in_action/chapter 1.md",
-    "README.md"
+    "algo_practice/같은 숫자는 싫어.md",
+    "algo_practice/성격_유형_검사하기.md",
+    "algo_practice/Daily Practice.md",
+    "algo_practice/키패드_누르기.md",
+    "algo_practice/동전 1.md",
+    "algo_practice/두_큐_합_같게_만들기.md",
+    "README.md",
+    "modern_java_in_action/람다_이펙티브_자바.md",
+    "modern_java_in_action/chapter2.md",
+    "Pasted image 20220831102901.png.md"
   ]
 }
