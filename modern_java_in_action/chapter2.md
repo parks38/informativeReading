@@ -70,8 +70,6 @@ public interface Stream<T> extends BaseStream<T, Stream<T>> {
 			* 변경이 발생하는 부분을 `추상화` 하여 분리 
 			
 
-✅ 예시 ![[Screen Shot 2022-09-02 at 7.31.50 PM.png]]
-
 * strategy : 인터페이스나 추상 클래스로 외부에서 동일한 방식으로 알고리즘을 호출 방법 명시
 * ConcreateStrategy 1,2,3 : strategy pattern에 명시한 알고리즘을 실제로 구현
 * context : 
