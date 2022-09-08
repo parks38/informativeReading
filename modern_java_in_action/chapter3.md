@@ -8,9 +8,10 @@
 	* 메서드로 전달할 수 있는 익명 함수 단수화 한 것 (이름은 없지만 파라미터 리스트, 바디, 반환 형식을 가지며 예외 던질수 있음)
 	* ⭐ 동작 파라미터를 통해 익명 클래스 판에 박힌 코드를 구현할 필요 X 
 
-##### > [예시] Comparator 클래스
+##### [예시] Comparator 클래스
 
 > 익명 클래스 구현 
+
 ```java
 Comparator<Integer> rank = new Comparator<Integer>() {
 	public int compare(Integer a1, Integer a2) {
@@ -18,7 +19,9 @@ Comparator<Integer> rank = new Comparator<Integer>() {
 	}
 }
 ```
+
 > 람다 구현
+
 ```java
 Comparator<Integer> rank 
 	= (Integer a1, Integer a2) -> a1.compareTo(a2);
@@ -34,6 +37,7 @@ Comparator<Integer> rank
 (parameter) -> { statemet; }  // block style 
 
 > 람다 예제 
+
 *  boolean 표현식 : Predicate 
 * 객체 생성 : Supplier (??) 
 * 객체에서 소비 : Consumer, BiConsumer <A, B>
@@ -47,8 +51,10 @@ Comparator<Integer> rank
 	* 추상 메서드를 즉석으로 제공하며 람다 표현식 `전체가 함수형 인터페이스의 인스턴스로 취급` (함수형 인터페이스 구현한 클래스의 인스턴스) 
 * 선언시 실제 함수형 인터페이스가 아니라면 에러 발생
 		* Multiple nonoverriding abstract methods found in interface 
+		
 * `JAVA.UTIL.FUNCTION`
 	* Predicate, Function, Supplier, Consumer, BinaryOperator
+	
 ```java
 public interface Predicate<T> {
 	boolean test(T t);
@@ -109,9 +115,21 @@ function plusNumber(a,b) {
 	
 #### | 실행 어라운드 패턴 (execute around pattern)
 * 자원 할당, 자원정리 (recurrent pattern(순환 패턴)은 자원을 열고 닫는다)
-	* try-with-resource : 자원을 명시적으로 닫ㄷ을 필요가 없기에 간결한 코드 구현 
+* execute around pattern : 자원을 처리하는 코드 설정과 정리 두 과정을 둘러싸는 형태 
+	* try-with-resource : 자원을 명시적으로 닫을 필요가 없기에 간결한 코드 구현 
 	* 유연성과 재사용성 추가
+	1. 동작 파라미터화
+		- 기존의 설정, 정리 과정 재사용 하고 시그니처 메서드만 동작 수행하도록 명령
+	2. 함수형 인터페이스를 이용해 동작 전달
+	3. 동작 실행 
+	4. 람다 전달 
 * 기대형식 (type expected) & 대상 형식 (target expected)
+
+#### | 함수형 인터페이스 사용
+* 함수형 인터페이스의 추상 메서드는 람다 표현식의 시그니처를 묘사
+
+
+
 * 메서드 참조 통해 재사용성 높이자
 	* `method reference`
 		* 단 하나의 메소드만을 호출하는 경우 해당 표현식에서 불필요한 매개변수를 제거하고 사용.
