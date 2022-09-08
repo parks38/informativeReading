@@ -208,7 +208,34 @@ String result =
 * 유연성과 재사용성 추가
 
 #### | 형식 검사, 형식 추론, 제약 
-* 기대형식 (type expected) & 대상 형식 (target expected)
+* *context 이용해서 람다의 형식 추론
+
+> 형식 검사 
+
+* 기대형식 (type expected) 
+* 대상 형식 (target expected)
+	* 파라미터나 람다 할당 변수가 기대되는 표현식
+
+```java
+// 1. context 확인 
+filter(inventory, (Apple a) -> a.getWeight() > 150);
+
+// 2. 대상 형식 
+filter(inventory, Predicate<Apple> p)
+
+// 3. 대상 형식의 추상 메서드? 
+boolean test(Apple apple)
+
+// 4. Apple 인수로 받아 boolean 반환하는 test 메서드
+Apple -> boolean 
+
+// 5. 함수 디스크립터는 Apple -> boolean 이므로 람다의 시그니처와 일치
+// 람다도 Apple 을 인수로 받아 boolean 반환하므로 코드 형식 검사 성공적 
+```
+> 형식 추론 
+
+
+> 제약 
 
 
 
