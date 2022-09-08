@@ -35,25 +35,76 @@ Comparator<Integer> rank
 
 > 람다 예제 
 *  boolean 표현식 : Predicate 
-* 객체 생성 : Supplier (??) 
+* 객체 생성 : Supplier 
 * 객체에서 소비 : Consumer, BiConsumer <A, B>
-* 객체에서 선택/추출
-* 두 값의 합 비교
-* 두 객체 비교 : Comparator
+* 객체에서 선택/추출: Function 
+* 두 값의 합 비교 : IntBinaryOperator
+* 두 객체 비교 : Comparator, BiFunction, ToIntBiFunction
 
 
 #### | 함수형 인터페이스 (@FunctionalInterface)
-* 정의 : 하나의 추상 메서드만을 정의
+* 정의 : *하나의 추상 메서드만을 지정 하고 함수형 인터페이스의 추상 메서드는 람다 표현식의 시그니처를 묘사한다.
+
 	* 추상 메서드를 즉석으로 제공하며 람다 표현식 `전체가 함수형 인터페이스의 인스턴스로 취급` (함수형 인터페이스 구현한 클래스의 인스턴스) 
 * 선언시 실제 함수형 인터페이스가 아니라면 에러 발생
 		* Multiple nonoverriding abstract methods found in interface 
 * `JAVA.UTIL.FUNCTION`
 	* Predicate, Function, Supplier, Consumer, BinaryOperator
+
+> Predicate 
+
+ => test 추상 메서드 정의하며 T의 객체의 인수로 받아 boolean 반환 
 ```java
 public interface Predicate<T> {
 	boolean test(T t);
 }
 
+//example
+Predicate<String> nonEmptyString = (String s) -> !s.isEmpty();
+```
+
+> Consumer 
+
+=> 제네릭 형식 T 객체를 받아 void 반환하는 `accept` 추상 메서드 정의 
+* 인수로 받아 동작을 수행 
+```java
+@FunctionalInterface
+public interface Consumer<T> {
+	void accept(T t);
+}
+
+public <T> void forEach (List<T> list, Consumer<T> c {
+	for (T t: list) c.accept(t);
+})
+```
+
+> Function 
+
+=> T 인수를 받아 제네릭 형식 R 객체를 반환 / 추상 메서드 `apply` 정의
+```java
+@FunctionalInterface
+public interface Function<T, R> {
+	R apply(T t);
+}
+
+List<Integer> l = map(
+	Arrays.asList("lamdas", "in", "action"),
+	(String s) -> s.length() // Function 의 apply method 구현 
+)
+```
+
+[기본형 특화]
+* Boxing (기본 > 참조)
+* Unboxing (참조 > 기본)
+* Autoboxing : (박싱 언박싱 자동 구현)
+	* 비용 소비 
+	* 박싱한 값은 메모리를 더 소비하며 기본형을 가져올 때도 메로리를 탐색하는 과정 필요
+
+* java8 오토박싱 동작을 피할수 있도록 특별한 버전의 함수형 인터페이스 제공
+	* IntPredicate / DoublePredicate/ IntConsumer/ LongBinaryOperator/IntFunction등..
+
+> ETC 
+```java
 public interface Comparator<T> {
 	int compare(T o1, T o2);
 }
@@ -79,7 +130,9 @@ public interface PrivilegedAction<T> {
 
 ```
 
-* Callable, PriviledgedAction => 인수를  받지 않고 제네릭 형식 T를 반환하는 함수를 정의 한다. 
+* `Callable`, `PriviledgedAction` 
+	=> 인수를  받지 않고 제네릭 형식 T를 반환하는 함수를 정의 한다. 
+
 ```java
 	Callable<Integer> c = () -> 42;  
 	PrivilegedAction<Integer> p = () -> 42;
@@ -104,14 +157,59 @@ function plusNumber(a,b) {
 }
 ```
 
-* java8
-	* Predicate, Function => 박싱 동작을 피할 수 있는 IntPredicate, IntToLongFunction 
 	
 #### | 실행 어라운드 패턴 (execute around pattern)
 * 자원 할당, 자원정리 (recurrent pattern(순환 패턴)은 자원을 열고 닫는다)
-	* try-with-resource : 자원을 명시적으로 닫ㄷ을 필요가 없기에 간결한 코드 구현 
-	* 유연성과 재사용성 추가
+	* ex] database 작업 
+	
+-> 이와 같은 경우 호출 방식이 고정이기 때문에 변화하는 부분에 대한 동작 파라미터화를 구현하면 간결해 진다. 
+
+> 실행 어라운드 패턴을 적용한 유연해 지는 과정
+
+*1단계 : 동작 파라미터화 
+```java
+	public String processFile() throws IOException {
+		try (BufferedReader br = 
+			new BufferedReader(new FileReader("data.txt"))) {
+			return br.readLine();
+		}	
+	}
+```
+
+*2단계: 함수형 인터페이스를 이용해 동작 전달
+```java 
+public static String processFile(Process p) throws IOException {
+    try (BufferedReader br = new BufferedReader(new FileReader("data.txt"))) {
+        return p.process(br);
+    }
+}
+
+@FunctionalInterface
+interface Process {
+    String process(BufferedReader br) throws IOException;
+}
+```
+
+*3단계 : 동작 실행 
+```java
+public static String processFile(Process p) throws IOException {
+    try (BufferedReader br = new BufferedReader(new FileReader("data.txt"))) {
+        return p.process(br);
+    }
+}
+```
+
+*4단계: 람다 전달
+```java
+String result = 
+	processFile((BufferedReader br) -> br.readLine() + br.readLine());
+```
+* try-with-resource : 자원을 명시적으로 닫을 필요가 없기에 간결한 코드 구현 
+* 유연성과 재사용성 추가
 * 기대형식 (type expected) & 대상 형식 (target expected)
+
+
+
 * 메서드 참조 통해 재사용성 높이자
 	* `method reference`
 		* 단 하나의 메소드만을 호출하는 경우 해당 표현식에서 불필요한 매개변수를 제거하고 사용.
