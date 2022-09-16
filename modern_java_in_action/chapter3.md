@@ -9,8 +9,8 @@
 	* ⭐ 동작 파라미터를 통해 익명 클래스 판에 박힌 코드를 구현할 필요 X 
 
 ##### [예시] Comparator 클래스
-
 > 익명 클래스 구현 
+
 ```java
 Comparator<Integer> rank = new Comparator<Integer>() {
 	public int compare(Integer a1, Integer a2) {
@@ -18,7 +18,9 @@ Comparator<Integer> rank = new Comparator<Integer>() {
 	}
 }
 ```
+
 > 람다 구현
+
 ```java
 Comparator<Integer> rank 
 	= (Integer a1, Integer a2) -> a1.compareTo(a2);
@@ -44,7 +46,6 @@ Comparator<Integer> rank
 
 #### | 함수형 인터페이스 (@FunctionalInterface)
 * 정의 : *하나의 추상 메서드만을 지정 하고 함수형 인터페이스의 추상 메서드는 람다 표현식의 시그니처를 묘사한다.
-
 	* 추상 메서드를 즉석으로 제공하며 람다 표현식 `전체가 함수형 인터페이스의 인스턴스로 취급` (함수형 인터페이스 구현한 클래스의 인스턴스) 
 * 선언시 실제 함수형 인터페이스가 아니라면 에러 발생
 		* Multiple nonoverriding abstract methods found in interface 
@@ -134,6 +135,8 @@ public interface PrivilegedAction<T> {
 #### | 함수 디스크립터 
 * 함수형 인터페이스의 추상 메서드 시그니처(signature) 는 람다 표현식의 시그니처를 가르킴 
 	* `Function Descriptor` : 람다 표현식 시그니처 서술 메서드
+		* 익명 클래스 메서드 + 매개변수 파라미터 
+		* 해당 표현식을 사용해서 유효성 검사
 	* 표현식 유효성 검사
 		* 변수에 할당
 		* @ FuncationalInterface 추상 메서드와 같은 시그니처를 갖는다 
@@ -331,7 +334,7 @@ Predicate<Apple> redAndHeavyAppleOrGreen =
 * andThen, compose 
 ```java
 Function<Integer, Integer> h = f.andThen(g);  // g(f(X))
-Function<Integer, Integer> h = f.compoase(g);  // f(g(x))
+Function<Integer, Integer> h = f.compose(g);  // f(g(x))
 ```
 
 
