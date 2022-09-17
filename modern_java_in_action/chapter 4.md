@@ -53,12 +53,15 @@
 	* 일반적인 연산과 데이터베이스와 비슷한 연산 지원 (순차적/ 병렬로 실행 가능)
 
 > 중요 특징 
-* 파이프라이닝(pipelining) 
+
+* `파이프라이닝(pipelining)` 
 	* 스트림 연산끼리 연결해 커다란 파이프라인 구성 하여 스트림 자신을 반환
 	* lazinenss, short-circuiting 같은 최적화 가능 
 	* 데이터 소스에 적용하는 데이터베이스 질의와 비슷함. 
+	
 * 내부 반복자 
 	* 명시적으로 반복하는 컬렉션과 달리 스트림은 내부 반복을 지원
+	
 ```java
 List<String> threeHighCaloriesDishName = 
 	menu.stream()
@@ -68,7 +71,7 @@ List<String> threeHighCaloriesDishName =
 		.collect(toList());
 ```
 
-* 데이터 처리 연산 : filter, map, limit, collect 
+* `데이터 처리 연산` : filter, map, limit, collect 
 	* collect 제외 모두 파이프라인 형성 가능하도록 스트림 반환 
 	* filter: 인수로 받아 스트림에서 특정 요소 제외
 	* map : 다른 요소로 변환하거나 정보 추출
@@ -99,6 +102,7 @@ List<String> threeHighCaloriesDishName =
 	* 사용자가 직접 요소를 반복 
 	* 명시적으로 컬렉션 항목을 하나씩 가져와서 처리 
 	* but! 병렬성 스스로 관리 (포기 하던지 synchronized 사용 필요)
+	
 * 스트림 (내부 반복) 
 	* 반복을 알아서 처리하고 결과 스트림값을 어딘가에 저장
 	* 장점
@@ -129,7 +133,6 @@ List<String> threeHighCaloriesDishName =
 * 스트림 파이프라인 실행하고 결과를 만들 최종 연산
 	* forEach, count, collect 
 
-
 #### | 정리 
 * 스트림은 소스에서 추출된 연속 요소로 데이터 처리 연산 지원
 * 내부 반복자 지원
@@ -137,3 +140,16 @@ List<String> threeHighCaloriesDishName =
 	* 중간 연산은 스트림을 반환하면서 다른 연산과 연결되는 연산 (파이프 라인 구성하나 결과 도출 X)
 	* 최종연산자는 파이프라인 처리해서 스트림이 아닌 결과 반환
 * 스트림의 요소는 요청시 게으르게 계산 됨 
+
+
+[ 파이프라인 구조과 질의어가 비슷]
+* sql 내부적인 구조 
+	* select - from : table tuple 읽으수만 있는 방식 
+	* 생성, 가공, 결과 작업 흐름이 같음. 
+* groupby 와 같이 구조에 공통점
+* 선언형 프로그램을 고수준으로 제공하는 프로글밍 언어 => 질의 언어
+**SQL처럼 선언적 명령 모음을 조립하여(=파이프라이닝) 원하는 결과를 만들어 낼 수 있다**
+
+- sql 과 stream 명령문이 어떻게 같은지에 대한 설명 찾아보면 될 것 같음 
+
+

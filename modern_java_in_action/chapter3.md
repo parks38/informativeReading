@@ -349,3 +349,6 @@ Function<Integer, Integer> h = f.compose(g);  // f(g(x))
 * 람다 표현식의 기대 형식 = 대상 형식 이라고 함. 
 * 메서드 참조를 이용하여 메서드 구현을 재사용하고 전달 
 * default method : Comparator, Predicate, Function (조합 사용 가능)
+
+[중요 포인트]
+** Comparator 처럼 Object 에서 불러오는 값은 여러개의 메소드를 가지고 있을 수있음. 
