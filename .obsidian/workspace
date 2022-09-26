@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "algo_practice/questions/단어 뒤집기.md",
+            "file": "algo_practice/Daily Practice.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/questions/단어 뒤집기.md",
+                "file": "algo_practice/Daily Practice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/questions/단어 뒤집기.md",
+                "file": "algo_practice/Daily Practice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/questions/단어 뒤집기.md"
+                "file": "algo_practice/Daily Practice.md"
               }
             }
           },
@@ -146,9 +146,9 @@
   },
   "active": "6369e1981c0eaf72",
   "lastOpenFiles": [
+    "algo_practice/questions/단어 뒤집기.md",
     "algo_practice/questions/두_큐_합_같게_만들기.md",
     "algo_practice/questions/백준_template.md",
-    "algo_practice/questions/단어 뒤집기.md",
     "algo_practice/questions/같은 숫자는 싫어.md",
     "algo_practice/Daily Practice.md",
     "algo_practice/questions/Screen Shot 2022-09-05 at 7.43.21 PM.png",
