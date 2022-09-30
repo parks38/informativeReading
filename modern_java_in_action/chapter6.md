@@ -106,7 +106,7 @@ reduce 를 잘못 사용하면 여러 스레드가 동시에 같은 데이터 �
 다수준 그룹화를 수행할 때 함수형 프로그래밍의 장점이 더해진다. 
 명령형 코드는 `다중루프`와 `조건문` 을 추가하여 가독성과 유지보수성이 떨어진다. 
 
-![[Pasted image 20220929142556.png]]
+![image](https://user-images.githubusercontent.com/16564373/193231922-34206276-51e1-4c7a-8a2f-c738d6eda408.png)
 
 * 그룹화된 요소 조작 
 	* Predicate 를 만족하는 키가 맵에 없는 경우는 키 자체가 맵에서 사라진다.  이럴 경우 Collectors 형식의 두번째 인수를 갖도록 groupingBy 팩토리 메서드를 오버로드해 문제를 해결함 
@@ -141,7 +141,7 @@ menu.stream().collect(
 🔺 다수준 그룹화 연산은 다양한 수준으로 확장 가능하며 n 수준 그룹화의 결과는
 			n 수준 트리 구조로 표현되는 n 수준 맵이 된다. 
 
-![[Pasted image 20220930081604.png]]
+![image](https://user-images.githubusercontent.com/16564373/193231974-8d4ed0a1-a945-47e1-8c72-6a80e44db9e5.png)
 
 `groupingBy` 연산을 *버킷* 개념으로 생각할 수 있다. 
 각 키나 버킷을 만들고 준비된 각각의 버킷을 서브 스트림 컬렉터로 채워나가는 것을
@@ -180,7 +180,7 @@ menu.stream()
 팩서리 메서드 `collectingAndThen` 은 컬렉터와 변환 함수를 인수로 받아 다른 컬렉터를 반환한다.  반환되는 컬렉터는 기존 컬렉터의 래퍼 역할을 하며 마지막 과정에서 변환 함수로 자신을 반환하는 값을 매핑한다. 
  (인수) <변환 함수> => 다른 컬렉터 반환 => 기존 컬렉터 래퍼 역할 => 변환 함수로 반환값 매핑
 
-![[Pasted image 20220930085820.png]]
+![image](https://user-images.githubusercontent.com/16564373/193232023-7bee775c-3b11-4aaf-9073-52122ed85e57.png)
 
 ✔️중첩 컬렉터 동작 방식 
 * `groupingBy` 바깥쪽에 위치하며 스트림을 세개의 서브 스트림으로 그룹화 한다. 
@@ -311,7 +311,7 @@ public Function <List<T>, List<T>> finisher() {
 
 위 세가지 (supplier, finisher, accumulator) 으로 순차적 스트림 리듀싱 기능을 수행이 가능하며 다른 중간 연산과 파이프라인을 구성할수 있게 *게으른 특성* 과 *병렬 실행* 도 고려해야해 스트림 리듀싱 기능 구현은 복잡하다. 
 
-![[Pasted image 20220930092540.png]]
+![image](https://user-images.githubusercontent.com/16564373/193232080-890098f7-83b5-41aa-b56f-877dccab82bf.png)
 
 > combiner 
 
@@ -327,7 +327,7 @@ public BinaryOperator<List<T>> combiner() {
 }
 ```
 
-![[Pasted image 20220930092912.png]]
+![image](https://user-images.githubusercontent.com/16564373/193232118-4252bb4d-63e0-4e67-9c5c-a89b47fb64d7.png)
 
 *병렬 리듀싱 수행 과정*
 * 스트림을 재귀적으로 분할한다. (병렬 수행 속도는 순차 수행 속도보다 느려져서 병렬 수행의 효과가 상쇄된다.) 프로세싱 코어의 개수를 초과하는 병렬 작업은 효율적이지 않음. 
