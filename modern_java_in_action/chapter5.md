@@ -1,4 +1,4 @@
-## 스트림 활용 
+›## 스트림 활용 
 
 #### | 필터링, 슬라이싱, 매칭
 필터링은 `데이터 컬렉션 반복을 내부적`으로 처리한다. 
@@ -195,6 +195,7 @@ Stream.iterate(new int[]{0, 1},
 * Stream.generate
 
 `generate` 요구할때 값을 계산하는 무한 스트림을 만들지만 iterate 와 달리 값을 연속적으로 계산하지는 않고 `Supplier< T>` 인수로 받아 새로운 값을 생산한다. 
+
 ```java
 Stream.generate(Math::random)
 	.limit(5)

@@ -13,9 +13,9 @@
 함수형 프로그래밍은 '무엇'을 원하는지 직접 명시ㅎ며
 Collector 인터페이스는 스트림의 요소를 어떤 식으로 도출할지 지정한다. 
 
-✔️ 리듀싱 
 
-장점 => 높은 조합성과 재사용성 
+장점 
+=> 높은 조합성과 재사용성 
 ex. collect 를 통해 유연한 방식으로 정의 
 
 * collect 는 리듀싱 연산 이용해 스트림의 각 요소를 방문하며 컬렉터 작업
@@ -32,6 +32,7 @@ ex. collect 를 통해 유연한 방식으로 정의
 트리를 구성하는 다수준 맵, 합계를 가리키는 단순한 정수 등 다양한 형식으로 결과 도출 
 
 > counting 
+
 ```java
 public static <T> Collector<T, ?, Long> counting() {
 	return reducing(0L, e -> 1L, Long::sum);
