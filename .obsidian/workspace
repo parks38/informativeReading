@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "algo_practice/questions/제로.md",
+            "file": "issues/junit/애플리케이션 테스트.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/questions/제로.md",
+                "file": "issues/junit/애플리케이션 테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/questions/제로.md",
+                "file": "issues/junit/애플리케이션 테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/questions/제로.md"
+                "file": "issues/junit/애플리케이션 테스트.md"
               }
             }
           },
@@ -142,19 +142,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 446
+    "width": 398
   },
-  "active": "32f39abd8f2ec58a",
+  "active": "53a69cc0c9f10494",
   "lastOpenFiles": [
+    "modern_java_in_action/Screen Shot 2022-09-26 at 8.31.01 PM.png",
+    "algo_practice/questions/제로.md",
     "algo_practice/questions/백준_template.md",
     "algo_practice/questions/Screen Shot 2022-09-05 at 7.43.21 PM.png",
     "algo_practice/questions/단어 뒤집기.md",
     "modern_java_in_action/chapter6.md",
     "modern_java_in_action/chapter5.md",
-    "Screen Shot 2022-09-26 at 8.31.01 PM.png",
     "algo_practice/Daily Practice.md",
     "algo_practice/questions/두_큐_합_같게_만들기.md",
-    "algo_practice/questions/같은 숫자는 싫어.md",
-    "issues/vue/Vue 설치중 이슈처리.md"
+    "algo_practice/questions/같은 숫자는 싫어.md"
   ]
 }
