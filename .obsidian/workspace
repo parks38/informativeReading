@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "issues/junit/애플리케이션 테스트.md",
+            "file": "algo_practice/Untitled/week1/예산.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "issues/junit/애플리케이션 테스트.md",
+                "file": "algo_practice/Untitled/week1/예산.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "issues/junit/애플리케이션 테스트.md",
+                "file": "algo_practice/Untitled/week1/예산.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "issues/junit/애플리케이션 테스트.md"
+                "file": "algo_practice/Untitled/week1/예산.md"
               }
             }
           },
@@ -142,19 +142,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398
+    "width": 515
   },
-  "active": "53a69cc0c9f10494",
+  "active": "18d9894e7f00a3af",
   "lastOpenFiles": [
+    "algo_practice/Untitled/week1/가장 큰 수.md",
+    "algo_practice/Untitled/week1/기지국 설치.md",
+    "algo_practice/Untitled/Untitled.md",
+    "issues/junit/애플리케이션 테스트.md",
     "modern_java_in_action/Screen Shot 2022-09-26 at 8.31.01 PM.png",
     "algo_practice/questions/제로.md",
     "algo_practice/questions/백준_template.md",
     "algo_practice/questions/Screen Shot 2022-09-05 at 7.43.21 PM.png",
     "algo_practice/questions/단어 뒤집기.md",
-    "modern_java_in_action/chapter6.md",
-    "modern_java_in_action/chapter5.md",
-    "algo_practice/Daily Practice.md",
-    "algo_practice/questions/두_큐_합_같게_만들기.md",
-    "algo_practice/questions/같은 숫자는 싫어.md"
+    "modern_java_in_action/chapter6.md"
   ]
 }
