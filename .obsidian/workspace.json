@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "224f4cc567332a7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c5f361d8a6c4008",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32f39abd8f2ec58a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algo_practice/Untitled/week1/예산.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "861d3d53bcb13a0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45e47d529a74a5b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIL/NullPointerException.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7482f3884643743a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIL/MappingJacksonValue.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f4d99a495f08438",
+    "type": "split",
+    "children": [
+      {
+        "id": "335bae1c825d08fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53a69cc0c9f10494",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a50ef4e726c47023",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "528709a35f11e83e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225
+  },
+  "right": {
+    "id": "7aa96f3acc9c8664",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f21dd02ae1a470a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8518f96962378ec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TIL/NullPointerException.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "559f048480dcad51",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TIL/NullPointerException.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3a83e43619ae7300",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "762c33611c3bd040",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TIL/NullPointerException.md"
+              }
+            }
+          },
+          {
+            "id": "18d9894e7f00a3af",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "cee2a6ba06aaaf86",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "active": "45e47d529a74a5b1",
+  "lastOpenFiles": [
+    "TIL/MappingJacksonValue.md",
+    "TIL/NullPointerException.md",
+    "Untitled.md",
+    "algo_practice/Untitled/week1/예산.md",
+    "algo_practice/Untitled/week1/가장 큰 수.md",
+    "algo_practice/Untitled/week1/기지국 설치.md",
+    "algo_practice/Untitled/Untitled.md",
+    "issues/junit/애플리케이션 테스트.md",
+    "modern_java_in_action/Screen Shot 2022-09-26 at 8.31.01 PM.png",
+    "algo_practice/questions/제로.md"
+  ]
+}
