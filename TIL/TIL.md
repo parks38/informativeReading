@@ -1,0 +1,2 @@
+- findEntityGraph 으로 filter
+- 내보낼때 filter 되지 않은 것으로 내보내는 방법은??? 
