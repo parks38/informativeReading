@@ -1,70 +1,39 @@
 {
   "main": {
-    "id": "224f4cc567332a7b",
+    "id": "f3f0ba1cfb3b8b4d",
     "type": "split",
     "children": [
       {
-        "id": "9c5f361d8a6c4008",
+        "id": "9184c4ac8308f9d5",
         "type": "tabs",
         "children": [
           {
-            "id": "32f39abd8f2ec58a",
+            "id": "78bd9e2ec711fe56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algo_practice/Untitled/week1/예산.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "861d3d53bcb13a0d",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Questions/Topics.md"
-              }
-            }
-          },
-          {
-            "id": "55c766e013e2a2bb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7482f3884643743a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TIL/MappingJacksonValue.md",
+                "file": "Topics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3f4d99a495f08438",
+    "id": "8d3daf107f449225",
     "type": "split",
     "children": [
       {
-        "id": "335bae1c825d08fe",
+        "id": "af9a5e0358e2d422",
         "type": "tabs",
         "children": [
           {
-            "id": "53a69cc0c9f10494",
+            "id": "f0d59b35498b3ff2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -74,7 +43,7 @@
             }
           },
           {
-            "id": "a50ef4e726c47023",
+            "id": "c5cc300bf39b0c9a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -89,7 +58,7 @@
             }
           },
           {
-            "id": "528709a35f11e83e",
+            "id": "404c2df06f97c225",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -100,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225
+    "width": 300
   },
   "right": {
-    "id": "7aa96f3acc9c8664",
+    "id": "bc962acf45afd554",
     "type": "split",
     "children": [
       {
-        "id": "5f21dd02ae1a470a",
+        "id": "f144cc896c9e84d1",
         "type": "tabs",
         "children": [
           {
-            "id": "f8518f96962378ec",
+            "id": "910d042130acf928",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions/Topics.md",
+                "file": "Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,19 +97,19 @@
             }
           },
           {
-            "id": "559f048480dcad51",
+            "id": "38215bd7eee180b6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions/Topics.md",
+                "file": "Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "3a83e43619ae7300",
+            "id": "62a87a8ffd7d9bbb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,49 +120,22 @@
             }
           },
           {
-            "id": "762c33611c3bd040",
+            "id": "a713ca501a36d483",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions/Topics.md"
+                "file": "Topics.md"
               }
             }
-          },
-          {
-            "id": "18d9894e7f00a3af",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "cee2a6ba06aaaf86",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
-  "active": "861d3d53bcb13a0d",
-  "lastOpenFiles": [
-    "Untitled.md",
-    "Untitled Kanban.md",
-    "Questions/Topics.md",
-    "Questions/spring/Autowiring 의 과정.md",
-    "TIL/Mybatis.md",
-    "TIL/MappingJacksonValue.md",
-    "README.md",
-    "algo_practice/programmers/콜라.md",
-    "TIL/NullPointerException.md",
-    "algo_practice/Untitled/week1/예산.md"
-  ]
+  "active": "f0d59b35498b3ff2",
+  "lastOpenFiles": []
 }
