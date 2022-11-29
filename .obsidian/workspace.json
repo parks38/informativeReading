@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed57a80ad4b1620b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51f541cfdcbfd31d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a6b88b17c247361f",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
+                "file": "algo_practice/programmers/체육복.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
+                "file": "algo_practice/programmers/체육복.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions/java/java 8 에서 추가된 기능에 대해 설명.md"
+                "file": "algo_practice/programmers/체육복.md"
               }
             }
           },
@@ -177,10 +152,10 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "51f541cfdcbfd31d",
+  "active": "a6b88b17c247361f",
   "lastOpenFiles": [
-    "algo_practice/programmers/체육복.md",
     "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
+    "algo_practice/programmers/체육복.md",
     "Questions/Untitled.md",
     "Questions/java/Stream의 NPE.md",
     "Questions/Topics.md",

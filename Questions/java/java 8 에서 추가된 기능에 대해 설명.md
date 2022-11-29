@@ -141,3 +141,5 @@ https://tecoble.techcourse.co.kr/post/2021-09-30-java8-functional-programming/
 https://tecoble.techcourse.co.kr/post/2020-07-17-Functional-Interface/
 객체지향형 프로그래밍 vs. 함수형 프로그래밍 
 https://mangsby.com/blog/programming/fp-vs-oop/
+Optional< T>
+https://mangkyu.tistory.com/70
