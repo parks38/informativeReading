@@ -1,4 +1,6 @@
 {
   "cssTheme": "Obsidian Nord",
-  "accentColor": ""
+  "accentColor": "",
+  "textFontFamily": "함초롬바탕",
+  "baseFontSize": 12
 }

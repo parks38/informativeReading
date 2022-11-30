@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c7ee2ba8eae6bf99",
+        "id": "f86dfbbefa53a45a",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b88b17c247361f",
+            "id": "31970e16b13fa899",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algo_practice/programmers/체육복.md",
+                "file": "N+1문제는 무엇이고 이것이 발생하는 이와 해결하는 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/programmers/체육복.md",
+                "file": "N+1문제는 무엇이고 이것이 발생하는 이와 해결하는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/programmers/체육복.md",
+                "file": "N+1문제는 무엇이고 이것이 발생하는 이와 해결하는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/programmers/체육복.md"
+                "file": "N+1문제는 무엇이고 이것이 발생하는 이와 해결하는 방법.md"
               }
             }
           },
@@ -152,17 +152,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "a6b88b17c247361f",
+  "active": "31970e16b13fa899",
   "lastOpenFiles": [
-    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
-    "algo_practice/programmers/체육복.md",
-    "Questions/Untitled.md",
-    "Questions/java/Stream의 NPE.md",
     "Questions/Topics.md",
-    "Questions/spring/Autowiring 의 과정.md",
-    "Questions/img/Pasted image 20221128130121.png",
-    "Untitled.md",
-    "Untitled Kanban.md",
-    "TIL/Mybatis.md"
+    "Questions/img/Pasted image 20221130110755.png",
+    "Questions/spring/[JPA] 영속성 컨텍스트의 이점 (5가지).md",
+    "Questions/java/오버라이딩 vs. 오버로딩.md",
+    "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md",
+    "Questions/java/객체 지향에 대해서 설명 (4대 특성).md",
+    "Questions/Untitled.md",
+    "algo_practice/programmers/체육복.md",
+    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
+    "Questions/java/Stream의 NPE.md"
   ]
 }
