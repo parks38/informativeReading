@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "238b5999d67605fc",
+        "id": "4f818afd82d124a0",
         "type": "tabs",
         "children": [
           {
-            "id": "fb0a7793a55e223a",
+            "id": "2e22ac81b15b4ed3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md",
+                "file": "Questions/spring/JPA save() 동작 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md",
+                "file": "Questions/spring/JPA save() 동작 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md",
+                "file": "Questions/spring/JPA save() 동작 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md"
+                "file": "Questions/spring/JPA save() 동작 방법.md"
               }
             }
           },
@@ -152,17 +152,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "fb0a7793a55e223a",
+  "active": "2e22ac81b15b4ed3",
   "lastOpenFiles": [
-    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
-    "Questions/java/오버라이딩 vs. 오버로딩.md",
-    "Questions/java/객체 지향에 대해서 설명 (4대 특성).md",
-    "Questions/spring/Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까.md",
-    "Questions/img/Pasted image 20221201161005.png.md",
+    "Questions/spring/spring vs. springboot.md",
     "Questions/Topics.md",
-    "Questions/spring/N+1문제는 무엇이고 이것이 발생하는 이와 해결하는 방법.md",
-    "Questions/img/Pasted image 20221130110755.png",
-    "Questions/spring/[JPA] 영속성 컨텍스트의 이점 (5가지).md",
-    "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md"
+    "Questions/spring/JPA save() 동작 방법.md",
+    "자바에서 null을 안전하게 다루는 방법.md",
+    "Questions/java/try-with-resource 에 대해 설명.md",
+    "README.md",
+    "Questions/img/Pasted image 20221201164116.png",
+    "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md",
+    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
+    "Questions/java/오버라이딩 vs. 오버로딩.md"
   ]
 }

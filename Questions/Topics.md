@@ -44,6 +44,8 @@ kanban-plugin: basic
 - [ ] JPa propagation 전파단계?
 - [ ] jpa 를 사용한다면 그 이유는?
 - [ ] [[N+1문제는 무엇이고 이것이 발생하는 이와 해결하는 방법]]
+- [ ] [[JPA save() 동작 방법]]
+- [ ] [[spring vs. springboot]]
 
 
 ## Java
@@ -66,12 +68,12 @@ kanban-plugin: basic
 - [ ] String, StringBuilder, StringBuffer
 - [ ] [[Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까]]
 - [ ] [[java 8 에서 추가된 기능에 대해 설명]]
-- [ ] try-with-resource 에 대해 설명
+- [ ] [[try-with-resource 에 대해 설명]]
 - [ ] 강한 결합과 느슨한 결합이 무엇인가?
 - [ ] 직렬화와 역직렬화에 대해 설명
 - [ ] 자바의 동시성 이슈(공유자원 접근) 에 대해 설명
 - [ ] Mutable 객체와 immutable 객체의 차이점 ?
-- [ ] 자바에서 null을 안전하게 다루는 방법?
+- [ ] [[자바에서 null을 안전하게 다루는 방법]]
 
 
 ## OS
