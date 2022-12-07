@@ -7,7 +7,7 @@ kanban-plugin: basic
 ## Network
 
 - [ ] 웹 동작 구현 방법/ 큰 흐름 : https://www.google.com
-- [ ] TCP vs. UDP
+- [ ] [[TCP vs. UDP]]
 - [ ] TCP 3,4 way handshake
 - [ ] HTTP vs. HTTPS
 - [ ] HTTPS 에 대해서 설명하고 SSL Handshake 에 대해 설명
@@ -17,7 +17,7 @@ kanban-plugin: basic
 - [ ] CORS ?
 - [ ] OSI 7 계층과 그 존재 이유
 - [ ] TCP/IP 4 계층에 대한 설명
-- [ ] 웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지?
+- [ ] [[웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지]]
 - [ ] 웹서버 의 서버 간 라우팅 기능은 OSI 7 계층 중 어디서 작동하는지 설명
 
 
@@ -35,7 +35,7 @@ kanban-plugin: basic
 - [ ] servlet filter 와 spring interceptor 의 차이는?
 - [ ] spring 에서 cors 에러를 해결하기 위한 방법은?
 - [ ] bean/component 어노테이션에 대해서 설명해주고 둘의 차이점은?
-- [ ] POJO 란 무엇인가? spring framework 에서 pojo 는 무엇인가?
+- [ ] [[POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가]]
 - [ ] spring web mvc 에서 요청마다 thread 가 생성되어 controller 를 통해 요청을 수행할텐데, 어떻게 1개의 controller 만 생성될수 있을까?
 - [ ] filter 는 servlet 의 스펙이고 interceptor는 spring mvc 의 스펙입니다. spring application 에서 filter 와 interceptor 를 통해 예외 처리할 경우 어떻게 해야 하나요?
 - [ ] spring application 을 구동할때 메서드를 실행 시키는 방법?
@@ -74,6 +74,7 @@ kanban-plugin: basic
 - [ ] 자바의 동시성 이슈(공유자원 접근) 에 대해 설명
 - [ ] Mutable 객체와 immutable 객체의 차이점 ?
 - [ ] [[자바에서 null을 안전하게 다루는 방법]]
+- [ ] [[Exception 던지는 방법]]
 
 
 ## OS

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4f818afd82d124a0",
+        "id": "82917b51db96c7a0",
         "type": "tabs",
         "children": [
           {
-            "id": "2e22ac81b15b4ed3",
+            "id": "64e57314a9572c0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/spring/JPA save() 동작 방법.md",
+                "file": "POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c013d3a6ca13f2c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/Etc Topics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions/spring/JPA save() 동작 방법.md",
+                "file": "Questions/Etc Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions/spring/JPA save() 동작 방법.md",
+                "file": "Questions/Etc Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions/spring/JPA save() 동작 방법.md"
+                "file": "Questions/Etc Topics.md"
               }
             }
           },
@@ -152,17 +165,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "2e22ac81b15b4ed3",
+  "active": "c013d3a6ca13f2c1",
   "lastOpenFiles": [
-    "Questions/spring/spring vs. springboot.md",
+    "Questions/Network/웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지.md",
+    "issues/no default constructor found for class(클래스명).md",
+    "POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가.md",
     "Questions/Topics.md",
-    "Questions/spring/JPA save() 동작 방법.md",
-    "자바에서 null을 안전하게 다루는 방법.md",
-    "Questions/java/try-with-resource 에 대해 설명.md",
-    "README.md",
-    "Questions/img/Pasted image 20221201164116.png",
-    "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md",
-    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
-    "Questions/java/오버라이딩 vs. 오버로딩.md"
+    "Questions/Etc Topics.md",
+    "Questions/spring/Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까.md",
+    "TIL/kafka.md",
+    "Questions/Network/TCP vs. UDP.md",
+    "Questions/java/Exception 던지는 방법.md",
+    "Questions/java/try-with-resource 에 대해 설명.md"
   ]
 }
