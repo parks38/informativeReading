@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
+                "file": "Questions/spring/DB connection pool 과 HTTP 통신.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,16 +35,13 @@
             "id": "ab989fde9497da6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Questions/spring/DB connection pool 과 HTTP 통신.md",
-                "mode": "source",
-                "source": false
+                "file": "Questions/img/Pasted image 20221208183814.png"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,17 +174,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "ab989fde9497da6f",
+  "active": "80a75810e5af6813",
   "lastOpenFiles": [
+    "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
+    "Questions/서버 관련.md",
+    "Questions/img/Pasted image 20221208183814.png",
+    "Questions/spring/DB connection pool 과 HTTP 통신.md",
     "Questions/Topics.md",
     "Questions/DB connection pool 과 HTTP 통신.md",
-    "Questions/spring/DB connection pool 과 HTTP 통신.md",
-    "Questions/서버 관련.md",
     "Questions/design pattern/템플렛 메소드 패턴.md",
-    "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
     "Questions/Network/OSI 7 계층과 그 존재 이유.md",
     "Questions/img/Pasted image 20221208093727.png",
-    "Questions/java/POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가.md",
-    "Questions/img/Pasted image 20221208103218.png"
+    "Questions/java/POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가.md"
   ]
 }
