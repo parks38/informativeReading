@@ -19,6 +19,7 @@ kanban-plugin: basic
 - [ ] TCP/IP 4 계층에 대한 설명
 - [ ] [[웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지]]
 - [ ] 웹서버 의 서버 간 라우팅 기능은 OSI 7 계층 중 어디서 작동하는지 설명
+- [ ] [[OSI 7계층과 로드 밸런싱 관계와 커버리지]] ^udrv4f
 
 
 ## Spring
@@ -91,6 +92,7 @@ kanban-plugin: basic
 
 ## Design Pattern
 
+- [ ] [[템플렛 메소드 패턴]]
 
 
 ## Etc

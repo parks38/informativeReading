@@ -4,16 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "67ba3d82b18d0d09",
+        "id": "f6933d0d357f4852",
         "type": "tabs",
         "children": [
           {
-            "id": "bb3b6b6086349b87",
+            "id": "80a75810e5af6813",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Questions/img/Pasted image 20221208093727.png"
+                "file": "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "146d8b21f2cbb8f5",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Questions/Topics.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f1332f42bf0962bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa06a10912af3de7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/design pattern/템플렛 메소드 패턴.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions/img/Pasted image 20221208093727.png",
+                "file": "Questions/Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions/img/Pasted image 20221208093727.png",
+                "file": "Questions/Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions/img/Pasted image 20221208093727.png"
+                "file": "Questions/Topics.md"
               }
             }
           },
@@ -150,17 +181,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "bb3b6b6086349b87",
+  "active": "53a69cc0c9f10494",
   "lastOpenFiles": [
+    "Questions/design pattern/템플렛 메소드 패턴.md",
+    "Questions/Topics.md",
+    "Questions/서버 관련.md",
+    "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
+    "Questions/Network/OSI 7 계층과 그 존재 이유.md",
+    "Questions/img/Pasted image 20221208093727.png",
     "Questions/java/POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가.md",
     "Questions/img/Pasted image 20221208103218.png",
-    "Questions/img/Pasted image 20221208093727.png",
-    "Questions/Network/OSI 7 계층과 그 존재 이유.md",
     "Questions/Network/TCP vs. UDP.md",
-    "Questions/Topics.md",
-    "Questions/Etc Topics.md",
-    "Questions/Network/웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지.md",
-    "issues/no default constructor found for class(클래스명).md",
-    "Questions/spring/Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까.md"
+    "Questions/Etc Topics.md"
   ]
 }
