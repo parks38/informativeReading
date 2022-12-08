@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "82917b51db96c7a0",
+        "id": "67ba3d82b18d0d09",
         "type": "tabs",
         "children": [
           {
-            "id": "64e57314a9572c0c",
+            "id": "bb3b6b6086349b87",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c013d3a6ca13f2c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions/Etc Topics.md",
-                "mode": "source",
-                "source": false
+                "file": "Questions/img/Pasted image 20221208093727.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions/Etc Topics.md",
+                "file": "Questions/img/Pasted image 20221208093727.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions/Etc Topics.md",
+                "file": "Questions/img/Pasted image 20221208093727.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions/Etc Topics.md"
+                "file": "Questions/img/Pasted image 20221208093727.png"
               }
             }
           },
@@ -165,17 +150,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "c013d3a6ca13f2c1",
+  "active": "bb3b6b6086349b87",
   "lastOpenFiles": [
-    "Questions/Network/웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지.md",
-    "issues/no default constructor found for class(클래스명).md",
-    "POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가.md",
+    "Questions/java/POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가.md",
+    "Questions/img/Pasted image 20221208103218.png",
+    "Questions/img/Pasted image 20221208093727.png",
+    "Questions/Network/OSI 7 계층과 그 존재 이유.md",
+    "Questions/Network/TCP vs. UDP.md",
     "Questions/Topics.md",
     "Questions/Etc Topics.md",
-    "Questions/spring/Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까.md",
-    "TIL/kafka.md",
-    "Questions/Network/TCP vs. UDP.md",
-    "Questions/java/Exception 던지는 방법.md",
-    "Questions/java/try-with-resource 에 대해 설명.md"
+    "Questions/Network/웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지.md",
+    "issues/no default constructor found for class(클래스명).md",
+    "Questions/spring/Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까.md"
   ]
 }
