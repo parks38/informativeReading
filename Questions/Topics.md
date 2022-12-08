@@ -47,6 +47,7 @@ kanban-plugin: basic
 - [ ] [[N+1문제는 무엇이고 이것이 발생하는 이와 해결하는 방법]]
 - [ ] [[JPA save() 동작 방법]]
 - [ ] [[spring vs. springboot]]
+- [ ] [[DB connection pool 과 HTTP 통신]]
 
 
 ## Java
