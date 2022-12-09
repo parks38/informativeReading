@@ -20,5 +20,8 @@
   "basePath": "https://github.com/parks38/swe-skills.git",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
-  "username": ""
+  "showedMobileNotice": true,
+  "refreshSourceControlTimer": 7000,
+  "showBranchStatusBar": true,
+  "setLastSaveToLastCommit": false
 }
