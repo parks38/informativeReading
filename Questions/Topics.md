@@ -42,7 +42,7 @@ kanban-plugin: basic
 - [ ] spring application 을 구동할때 메서드를 실행 시키는 방법?
 - [ ] 의존성과 설정값을 생성자 인자로 주입해야 하는 이유?
 - [ ] [[[JPA] 영속성 컨텍스트의 이점 (5가지)]]
-- [ ] JPa propagation 전파단계?
+- [ ] [[JPa propagation 전파단계]]
 - [ ] jpa 를 사용한다면 그 이유는?
 - [ ] [[N+1문제는 무엇이고 이것이 발생하는 이와 해결하는 방법]]
 - [ ] [[JPA save() 동작 방법]]
