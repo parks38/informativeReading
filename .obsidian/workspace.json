@@ -4,21 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "be8e66bde188ee55",
+        "id": "2d379fa39139a0ef",
         "type": "tabs",
         "children": [
           {
-            "id": "c0ee781740299d45",
+            "id": "9ef3563933139503",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "kanban",
               "state": {
-                "staged": false,
-                "file": ""
+                "file": "Questions/Topics.md"
+              }
+            }
+          },
+          {
+            "id": "313538e514e34c21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algo_practice/programmers/가장 가까운 세글자.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "algo_practice/programmers/가장 가까운 세글자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "algo_practice/programmers/가장 가까운 세글자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "algo_practice/programmers/가장 가까운 세글자.md"
+              }
             }
           },
           {
@@ -147,17 +163,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "c0ee781740299d45",
+  "active": "313538e514e34c21",
   "lastOpenFiles": [
-    "Questions/spring/Spring 구조와 기본동작 순서.md",
-    "Spring 구조와 기본동작 순서 1.md",
     "Questions/Topics.md",
-    "Questions/서버 관련.md",
-    "Questions/img/Pasted image 20221209114001.png",
-    "Questions/DB/Connection Pool 리소스 옵션과 성능.md",
-    "Questions/DB/DB connection pool 과 HTTP 통신.md",
-    "Questions/img/disk병목.png",
-    "Questions/img/Pasted image 20221208183814.png",
-    "Questions/img/Pasted image 20221209110414.png"
+    "Questions/Etc Topics.md",
+    "Questions/java/String, StringBuilder, StringBuffer.md",
+    "Questions/img/Pasted image 20221212154759.png",
+    "README.md",
+    "Untitled.md",
+    "Questions/서버 관련 Question.md",
+    "Questions/D2 스터디 리스트.md",
+    "Questions/spring/Spring 구조와 기본동작 순서.md",
+    "Spring 구조와 기본동작 순서 1.md"
   ]
 }

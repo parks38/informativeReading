@@ -67,7 +67,7 @@ kanban-plugin: basic
 - [ ] [[SOLID(객체지향 5대 원칙)에 대해서 설명]]
 - [ ] 동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals/ ==)
 - [ ] 원시타입과 참조타입의 차이에 대한 설명
-- [ ] String, StringBuilder, StringBuffer
+- [ ] [[String, StringBuilder, StringBuffer]]
 - [ ] [[Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까]]
 - [ ] [[java 8 에서 추가된 기능에 대해 설명]]
 - [ ] [[try-with-resource 에 대해 설명]]
