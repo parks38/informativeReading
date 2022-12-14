@@ -18,4 +18,8 @@ spring 구조
 * 스프링 영역 
 * WAS interceptor 과 spring interceptor
 * AOP/async
-* 
+
+[keyword]
+* PathMatchingResourcePatternResolver
+* AutowiredAnnotationBeanPostProcessor
+* RequestMappingHandlerMapping] [AbstractHandlerMethodMapping.
