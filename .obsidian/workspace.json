@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "913569a9c669c83d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algo_practice/programmers/디펜스 게임.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GC 가 무엇인지  필요한 이유  동작 방식.md",
+                "file": "algo_practice/programmers/디펜스 게임.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GC 가 무엇인지  필요한 이유  동작 방식.md",
+                "file": "algo_practice/programmers/디펜스 게임.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GC 가 무엇인지  필요한 이유  동작 방식.md"
+                "file": "algo_practice/programmers/디펜스 게임.md"
               }
             }
           },
@@ -152,10 +165,10 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "6b88a84f754eaeaf",
+  "active": "913569a9c669c83d",
   "lastOpenFiles": [
-    "기타/Untitled.md",
     "GC 가 무엇인지  필요한 이유  동작 방식.md",
+    "기타/Untitled.md",
     "Questions/Topics.md",
     "Questions/서버 관련 Question.md",
     "기타/일정 시간.md",
