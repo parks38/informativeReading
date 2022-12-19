@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6b88a84f754eaeaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GC 가 무엇인지  필요한 이유  동작 방식.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "913569a9c669c83d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algo_practice/programmers/디펜스 게임.md",
+                "file": "Questions/java/Java Garbage Collection 상세 분석.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/programmers/디펜스 게임.md",
+                "file": "Questions/java/Java Garbage Collection 상세 분석.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/programmers/디펜스 게임.md",
+                "file": "Questions/java/Java Garbage Collection 상세 분석.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/programmers/디펜스 게임.md"
+                "file": "Questions/java/Java Garbage Collection 상세 분석.md"
               }
             }
           },
@@ -167,15 +154,15 @@
   },
   "active": "913569a9c669c83d",
   "lastOpenFiles": [
-    "GC 가 무엇인지  필요한 이유  동작 방식.md",
-    "기타/Untitled.md",
+    "Questions/Pasted image 20221219112631.png",
+    "Questions/java/Java Garbage Collection 상세 분석.md",
+    "Effective Java/Effective Java Topics.md",
+    "Effective Java/Effective Java Study Plan.md",
+    "Questions/java/GC 가 무엇인지  필요한 이유  동작 방식.md",
+    "Questions/img/Pasted image 20221214185355.png",
     "Questions/Topics.md",
-    "Questions/서버 관련 Question.md",
-    "기타/일정 시간.md",
-    "Questions/Etc Topics.md",
-    "Questions/spring/JPa propagation 전파단계.md",
-    "Kafka/자료.md",
-    "Questions/img/Pasted image 20221213091013.png",
-    "Questions/spring/[JPA] 영속성 컨텍스트의 이점 (5가지).md"
+    "algo_practice/programmers/디펜스 게임.md",
+    "기타/Untitled.md",
+    "Questions/서버 관련 Question.md"
   ]
 }

@@ -45,3 +45,4 @@ GC 튜닝 : https://d2.naver.com/helloworld/37111
 GC 모니터링 방법 : https://d2.naver.com/helloworld/6043
 
 
+[[Java Garbage Collection 상세 분석]]
