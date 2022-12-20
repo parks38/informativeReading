@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b90f6ba0fbe086a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algo_practice/programmers/문자열 나누기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions/java/Java Garbage Collection 상세 분석.md",
+                "file": "algo_practice/programmers/문자열 나누기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions/java/Java Garbage Collection 상세 분석.md",
+                "file": "algo_practice/programmers/문자열 나누기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions/java/Java Garbage Collection 상세 분석.md"
+                "file": "algo_practice/programmers/문자열 나누기.md"
               }
             }
           },
@@ -152,10 +165,10 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "913569a9c669c83d",
+  "active": "b90f6ba0fbe086a9",
   "lastOpenFiles": [
-    "Questions/Pasted image 20221219112631.png",
     "Questions/java/Java Garbage Collection 상세 분석.md",
+    "Questions/Pasted image 20221219112631.png",
     "Effective Java/Effective Java Topics.md",
     "Effective Java/Effective Java Study Plan.md",
     "Questions/java/GC 가 무엇인지  필요한 이유  동작 방식.md",
