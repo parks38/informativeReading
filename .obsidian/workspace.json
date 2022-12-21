@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d3b1456b4a101def",
+        "id": "718badd3e593c873",
         "type": "tabs",
         "children": [
           {
-            "id": "913569a9c669c83d",
+            "id": "75b2d2e5dd71c636",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/java/Java Garbage Collection 상세 분석.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b90f6ba0fbe086a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algo_practice/programmers/문자열 나누기.md",
+                "file": "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/programmers/문자열 나누기.md",
+                "file": "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/programmers/문자열 나누기.md",
+                "file": "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/programmers/문자열 나누기.md"
+                "file": "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md"
               }
             }
           },
@@ -165,17 +152,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "b90f6ba0fbe086a9",
+  "active": "75b2d2e5dd71c636",
   "lastOpenFiles": [
+    "algo_practice/programmers/주차 요금.md",
+    "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
+    "Effective Java/Effective Java Topics.md",
+    "algo_practice/programmers/명예의 전당.md",
+    "algo_practice/programmers/문자열 나누기.md",
+    "Effective Java/Effective Java Study Plan.md",
     "Questions/java/Java Garbage Collection 상세 분석.md",
     "Questions/Pasted image 20221219112631.png",
-    "Effective Java/Effective Java Topics.md",
-    "Effective Java/Effective Java Study Plan.md",
     "Questions/java/GC 가 무엇인지  필요한 이유  동작 방식.md",
-    "Questions/img/Pasted image 20221214185355.png",
-    "Questions/Topics.md",
-    "algo_practice/programmers/디펜스 게임.md",
-    "기타/Untitled.md",
-    "Questions/서버 관련 Question.md"
+    "Questions/img/Pasted image 20221214185355.png"
   ]
 }
