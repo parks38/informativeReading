@@ -4,22 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "718badd3e593c873",
+        "id": "727080d819a095a9",
         "type": "tabs",
         "children": [
           {
-            "id": "75b2d2e5dd71c636",
+            "id": "2a78ca2c9a6773dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
+                "file": "Effective Java/chapter1/아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70f39760068c405d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png"
+              }
+            }
+          },
+          {
+            "id": "19f389f1b5271930",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/project/project topics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
+                "file": "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
+                "file": "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md"
+                "file": "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png"
               }
             }
           },
@@ -152,17 +175,29 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "75b2d2e5dd71c636",
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "70f39760068c405d",
   "lastOpenFiles": [
-    "algo_practice/programmers/주차 요금.md",
-    "아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
-    "Effective Java/Effective Java Topics.md",
-    "algo_practice/programmers/명예의 전당.md",
-    "algo_practice/programmers/문자열 나누기.md",
-    "Effective Java/Effective Java Study Plan.md",
-    "Questions/java/Java Garbage Collection 상세 분석.md",
-    "Questions/Pasted image 20221219112631.png",
-    "Questions/java/GC 가 무엇인지  필요한 이유  동작 방식.md",
-    "Questions/img/Pasted image 20221214185355.png"
+    "modern_java_in_action/Screen Shot 2022-09-15 at 9.26.49 PM.png",
+    "modern_java_in_action/Screen Shot 2022-09-02 at 7.31.50 PM.png",
+    "Effective Java/Untitled.md",
+    "Effective Java/chapter1/아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
+    "modern_java_in_action/chapter2.md",
+    "modern_java_in_action/chapter6.md",
+    "modern_java_in_action/람다_이펙티브_자바.md",
+    "Newtork_ OSI 7 계층.canvas",
+    "Questions/project/project topics.md",
+    "Effective Java/Effective Java Topics.md"
   ]
 }

@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"62b6116febc3b1f7","x":-71,"y":417,"width":250,"height":60,"type":"text","text":""},
+		{"id":"4a802178119c1d6d","x":-419,"y":-323,"width":250,"height":60,"type":"text","text":"OSI Layer 7 (물리 계층 )"},
+		{"id":"c2d6205900647284","x":59,"y":-360,"width":522,"height":263,"type":"file","file":"Questions/img/Pasted image 20221208093727.png"}
+	],
+	"edges":[
+		{"id":"7d29138357c5ef85","fromNode":"c2d6205900647284","fromSide":"left","toNode":"4a802178119c1d6d","toSide":"right"}
+	]
+}
