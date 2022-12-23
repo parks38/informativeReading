@@ -4,38 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "727080d819a095a9",
+        "id": "756eba8be78d01d3",
         "type": "tabs",
         "children": [
           {
-            "id": "2a78ca2c9a6773dc",
+            "id": "71d88bb016ca1337",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Effective Java/chapter1/아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
+                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "70f39760068c405d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png"
-              }
-            }
-          },
-          {
-            "id": "19f389f1b5271930",
+            "id": "140b2a671d9f2f63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/project/project topics.md",
+                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png",
+                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png",
+                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png"
+                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md"
               }
             }
           },
@@ -187,17 +177,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70f39760068c405d",
+  "active": "140b2a671d9f2f63",
   "lastOpenFiles": [
-    "modern_java_in_action/Screen Shot 2022-09-15 at 9.26.49 PM.png",
-    "modern_java_in_action/Screen Shot 2022-09-02 at 7.31.50 PM.png",
-    "Effective Java/Untitled.md",
+    "Effective Java/chapter1/한달 한권.md",
+    "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
+    "Effective Java/Effective Java Topics.md",
+    "Effective Java/Effective Java Study Plan.md",
     "Effective Java/chapter1/아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
-    "modern_java_in_action/chapter2.md",
-    "modern_java_in_action/chapter6.md",
-    "modern_java_in_action/람다_이펙티브_자바.md",
-    "Newtork_ OSI 7 계층.canvas",
     "Questions/project/project topics.md",
-    "Effective Java/Effective Java Topics.md"
+    "Newtork_ OSI 7 계층.canvas",
+    "Questions/Topics.md",
+    "Questions/Etc Topics.md",
+    "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png"
   ]
 }
