@@ -5,5 +5,7 @@
   "templater-obsidian",
   "obsidian-emoji-toolbar",
   "table-editor-obsidian",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "ObsidianAnkiSync",
+  "obsidian-spaced-repetition"
 ]

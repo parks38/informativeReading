@@ -77,6 +77,7 @@ kanban-plugin: basic
 - [ ] Mutable 객체와 immutable 객체의 차이점 ?
 - [ ] [[자바에서 null을 안전하게 다루는 방법]]
 - [ ] [[Exception 던지는 방법]]
+- [ ] [[AOT vs. JIT]]
 
 
 ## OS

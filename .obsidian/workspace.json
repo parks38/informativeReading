@@ -4,28 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "756eba8be78d01d3",
+        "id": "0b91da9b5cb4ecf1",
         "type": "tabs",
         "children": [
           {
-            "id": "71d88bb016ca1337",
+            "id": "5f72225c6b4f3b27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
+                "file": "AOT vs. JIT.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "140b2a671d9f2f63",
+            "id": "1c058c21ea3384af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
+                "file": "algo_practice/programmers/신고 결과 받기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b3ad43606eda71b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/java/JVM_GC/JIT 컴파일러란.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
+                "file": "algo_practice/programmers/신고 결과 받기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
+                "file": "algo_practice/programmers/신고 결과 받기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +150,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md"
+                "file": "algo_practice/programmers/신고 결과 받기.md"
               }
-            }
-          },
-          {
-            "id": "cee2a6ba06aaaf86",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           },
           {
@@ -157,9 +161,25 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "9e50ead8799e2974",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2882e4d2e7343478",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -167,27 +187,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "ObsidianAnkiSync:Start Obsidian Anki Sync": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "140b2a671d9f2f63",
+  "active": "1c058c21ea3384af",
   "lastOpenFiles": [
-    "Effective Java/chapter1/한달 한권.md",
-    "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md",
-    "Effective Java/Effective Java Topics.md",
-    "Effective Java/Effective Java Study Plan.md",
-    "Effective Java/chapter1/아이템 1. 생성자 대신 정적 팩터리 메서드를 고려하라.md",
-    "Questions/project/project topics.md",
-    "Newtork_ OSI 7 계층.canvas",
+    "AOT vs. JIT.md",
+    "Questions/java/JVM_GC/JIT 컴파일러란.md",
+    "Questions/java/JVM_GC/JVM 과 자바 실행.md",
     "Questions/Topics.md",
-    "Questions/Etc Topics.md",
-    "modern_java_in_action/Screen Shot 2022-09-26 at 11.19.51 PM.png"
+    "CS Topics/Network OSI 7 계층.md",
+    "Questions/img/Pasted image 20221226142742.png",
+    "Questions/서버 관련 Question.md",
+    "Questions/img/Pasted image 20221226133225.png",
+    "Newtork_ OSI 7 계층.canvas",
+    "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md"
   ]
 }
