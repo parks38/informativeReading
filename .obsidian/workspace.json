@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b91da9b5cb4ecf1",
+        "id": "9ac5d57fae53b280",
         "type": "tabs",
         "children": [
           {
-            "id": "5f72225c6b4f3b27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AOT vs. JIT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1c058c21ea3384af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algo_practice/programmers/신고 결과 받기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b3ad43606eda71b",
+            "id": "9c21455655984af8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,25 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "9faf3e1955ede6df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a0b5c01c8efbe76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/java/JVM_GC/AOT vs. JIT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/programmers/신고 결과 받기.md",
+                "file": "Questions/java/JVM_GC/JIT 컴파일러란.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/programmers/신고 결과 받기.md",
+                "file": "Questions/java/JVM_GC/JIT 컴파일러란.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/programmers/신고 결과 받기.md"
+                "file": "Questions/java/JVM_GC/JIT 컴파일러란.md"
               }
             }
           },
@@ -199,17 +192,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1c058c21ea3384af",
+  "active": "9c21455655984af8",
   "lastOpenFiles": [
-    "AOT vs. JIT.md",
+    "Questions/java/JVM_GC/AOT vs. JIT.md",
     "Questions/java/JVM_GC/JIT 컴파일러란.md",
     "Questions/java/JVM_GC/JVM 과 자바 실행.md",
-    "Questions/Topics.md",
-    "CS Topics/Network OSI 7 계층.md",
-    "Questions/img/Pasted image 20221226142742.png",
-    "Questions/서버 관련 Question.md",
-    "Questions/img/Pasted image 20221226133225.png",
-    "Newtork_ OSI 7 계층.canvas",
-    "Effective Java/chapter1/아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라.md"
+    "아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보증하라.md",
+    "Effective Java/Effective Java Topics.md",
+    "algo_practice/programmers/소수 개수 찾기.md",
+    "Effective Java/Effective Java Study Plan.md",
+    "Effective Java/chapter1/한달 한권.md",
+    "algo_practice/programmers/신고 결과 받기.md",
+    "Questions/Topics.md"
   ]
 }

@@ -72,9 +72,19 @@ AOT 와 JIT 는 정반대의 개념이다!
 
 >  C1 컴파일러와 C2 컴파일러는 무엇일까요?
 
-->   이 2개는 역할이 어떻게 다른가요?
+Java Hotspot VM 안의 메이저 컴플라이어로 c1 과 c2 가 있다.
+JVM 실행 될 때 JIT 컴파일러를 통해 핫코드를 간소화 시키는데 이 안에 C1 & C2 스레드가 있고 코드 효율성 최적화를 시킨다. 
+
+⭐ 이 2개는 역할이 어떻게 다른가요?
+C1 은 클라이언트 JIT 로 level 1-3 compilation tier(수행 빈도와 복잡도 레벨)을 담당하고
+빠르고 가볍게 최적화된 바이트 코드 컴파일러를 실행한다. 
+
+C2는 서버 JIT가 사용하는 스레드로 고도로 최적화된 바이트 코드 컴파일러로 level4 를 수행하며 
+C2는 더 오래걸리지만 가 더 최적화된 코드를 생성하며 필요 시에만 동작한다. 
 
 > 컴파일 과정에서 컴파일러가 최적화해주는 것들은 무엇무엇이 있을까요?
+
+
 
 #### | 검색 키워드
 
@@ -100,3 +110,6 @@ JIT vs. AOT
 https://shirohoo.github.io/backend/java/2022-07-16-aot-vs-jit-in-java/
 https://www.cesarsotovalero.net/blog/aot-vs-jit-compilation-in-java.html
 http://daplus.net/angular-angular%EC%9D%98-jit-just-in-time-vs-aot-ahead-of-time-%EC%BB%B4%ED%8C%8C%EC%9D%BC/
+
+
+https://heewon26.tistory.com/207
