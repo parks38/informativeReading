@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4250d40f8355ad91",
+        "id": "98231aa59ed86c6e",
         "type": "tabs",
         "children": [
           {
-            "id": "db729ff948f9b1fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Effective Java/chapter1/아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d62819dba012cf20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algo_practice/programmers/가장 큰 수.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed9823089e7c2383",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algo_practice/programmers/예산.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbc386bfecba9d38",
+            "id": "2089ef164920c28c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,17 +174,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bbc386bfecba9d38",
+  "active": "2089ef164920c28c",
   "lastOpenFiles": [
-    "algo_practice/programmers/예산.md",
-    "algo_practice/programmers/가장 큰 수.md",
+    "웹서버 의 서버 간 라우팅 기능은 OSI 7 계층 중 어디서 작동하는지 설명.md",
+    "Questions/Topics.md",
+    "Questions/JVM 관련 TOPIC.md",
     "Effective Java/chapter1/아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라.md",
+    "algo_practice/programmers/가장 큰 수.md",
+    "algo_practice/programmers/예산.md",
     "Effective Java/Effective Java Topics.md",
+    "algo_practice/WEEKLY/3085_사탕 게임.md",
     "Effective Java/chapter1/아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보증하라.md",
-    "algo_practice/programmers/소수 개수 찾기.md",
-    "Questions/java/JVM_GC/JIT 컴파일러란.md",
-    "Questions/java/JVM_GC/AOT vs. JIT.md",
-    "Questions/java/JVM_GC/JVM 과 자바 실행.md",
-    "Effective Java/Effective Java Study Plan.md"
+    "algo_practice/programmers/소수 개수 찾기.md"
   ]
 }
