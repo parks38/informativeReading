@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Effective Java/chapter1/아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.md",
+                "file": "기타/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "117f6e56ee192624",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/Untitled 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d8c270931bf840b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/크롤링 주식창.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Effective Java/chapter1/아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.md",
+                "file": "기타/크롤링 주식창.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Effective Java/chapter1/아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.md",
+                "file": "기타/크롤링 주식창.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Effective Java/chapter1/아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.md"
+                "file": "기타/크롤링 주식창.md"
               }
             }
           },
@@ -174,17 +199,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "53a69cc0c9f10494",
+  "active": "5d8c270931bf840b",
   "lastOpenFiles": [
+    "기타/Untitled 1.md",
+    "기타/Untitled.md",
+    "Effective Java/chapter1/아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.md",
     "Effective Java/Effective Java Topics.md",
     "Effective Java/Effective Java Study Plan.md",
     "Effective Java/chapter1/한달 한권.md",
     "Effective Java/chapter1/아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라.md",
     "algo_practice/WEEKLY/3085_사탕 게임.md",
     "웹서버 의 서버 간 라우팅 기능은 OSI 7 계층 중 어디서 작동하는지 설명.md",
-    "Questions/Topics.md",
-    "Questions/JVM 관련 TOPIC.md",
-    "algo_practice/programmers/가장 큰 수.md",
-    "algo_practice/programmers/예산.md"
+    "Questions/Topics.md"
   ]
 }
