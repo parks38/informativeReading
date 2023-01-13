@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "97de89c08dc8d2fa",
+        "id": "eecc79a9f093e9a1",
         "type": "tabs",
         "children": [
           {
-            "id": "d98e632a45c83a68",
+            "id": "852a501fdbf74d4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기타/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "117f6e56ee192624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions/Network/OSI 7 계층과 그 존재 이유.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6edec1ebc5793489",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS Topics/OSI 7 계층.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b60aabf0bc21adae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algo_practice/WEEKLY/1912_연속합.md",
+                "file": "spring bean 의 scope.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/WEEKLY/1912_연속합.md",
+                "file": "spring bean 의 scope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/WEEKLY/1912_연속합.md",
+                "file": "spring bean 의 scope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/WEEKLY/1912_연속합.md"
+                "file": "spring bean 의 scope.md"
               }
             }
           },
@@ -211,17 +174,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b60aabf0bc21adae",
+  "active": "852a501fdbf74d4d",
   "lastOpenFiles": [
-    "CS Topics/OSI 7 계층.md",
-    "Questions/Network/OSI 7 계층과 그 존재 이유.md",
+    "Questions/Topics.md",
+    "Questions/spring/spring vs. springboot.md",
     "CS Topics/Network OSI 7 계층.md",
+    "CS Topics/OSI 7 계층.md",
+    "CS Topics/Untitled.md",
+    "아이템 7. 다 쓴 객체 참조를 해제하라.md",
+    "웹서버 의 서버 간 라우팅 기능은 OSI 7 계층 중 어디서 작동하는지 설명.md",
     "기타/Untitled 1.md",
-    "기타/크롤링 주식창.md",
     "기타/Untitled.md",
-    "Effective Java/chapter1/아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라.md",
-    "Effective Java/Effective Java Topics.md",
-    "Effective Java/Effective Java Study Plan.md",
-    "Effective Java/chapter1/한달 한권.md"
+    "Effective Java/Effective Java Topics.md"
   ]
 }

@@ -27,7 +27,7 @@ kanban-plugin: basic
 - [ ] spring DI/Ioc
 - [ ] spring bean?
 - [ ] spriung bean 의 생성 과정
-- [ ] spring bean 의 scope
+- [ ] [[spring bean 의 scope]]
 - [ ] ioc container 역할
 - [ ] di 종류는 어떤 것이고 이들의 차이점은?
 - [ ] [[Autowiring 의 과정]]
