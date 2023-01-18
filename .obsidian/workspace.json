@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eecc79a9f093e9a1",
+        "id": "a8fdbd8f61df1758",
         "type": "tabs",
         "children": [
           {
-            "id": "852a501fdbf74d4d",
+            "id": "c08dbbc68671bb2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring bean 의 scope.md",
+                "file": "기타/Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "spring bean 의 scope.md",
+                "file": "기타/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "spring bean 의 scope.md",
+                "file": "기타/Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring bean 의 scope.md"
+                "file": "기타/Untitled 1.md"
               }
             }
           },
@@ -174,17 +174,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "852a501fdbf74d4d",
+  "active": "c08dbbc68671bb2f",
   "lastOpenFiles": [
-    "Questions/Topics.md",
-    "Questions/spring/spring vs. springboot.md",
-    "CS Topics/Network OSI 7 계층.md",
-    "CS Topics/OSI 7 계층.md",
-    "CS Topics/Untitled.md",
-    "아이템 7. 다 쓴 객체 참조를 해제하라.md",
-    "웹서버 의 서버 간 라우팅 기능은 OSI 7 계층 중 어디서 작동하는지 설명.md",
-    "기타/Untitled 1.md",
     "기타/Untitled.md",
-    "Effective Java/Effective Java Topics.md"
+    "기타/Untitled 1.md",
+    "기타/Questionaire.md",
+    "기타/크롤링 주식창.md",
+    "기타/일정 시간.md",
+    "Untitled.md",
+    "Questions/DB/DB connection pool 과 HTTP 통신.md",
+    "Questions/DB/Connection Pool 리소스 옵션과 성능.md",
+    "Questions/Etc Topics.md",
+    "Questions/D2 스터디 리스트.md"
   ]
 }
