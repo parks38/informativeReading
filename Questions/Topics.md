@@ -33,7 +33,7 @@ kanban-plugin: basic
 - [ ] [[Autowiring 의 과정]]
 - [ ] spring web mvc 의 dispatcher servlet 의 동작 원리에 대한 설명?
 - [ ] 프론트 컨트롤러 패턴이란?
-- [ ] servlet filter 와 spring interceptor 의 차이는?
+- [ ] [[servlet filter 와 spring interceptor 의 차이는]]
 - [ ] spring 에서 cors 에러를 해결하기 위한 방법은?
 - [ ] bean/component 어노테이션에 대해서 설명해주고 둘의 차이점은?
 - [ ] [[POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가]]
