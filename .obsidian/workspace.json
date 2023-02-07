@@ -4,71 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "45eff0b3440eb981",
+        "id": "a124bb188252e73c",
         "type": "tabs",
         "children": [
           {
-            "id": "327fce304fccedfb",
+            "id": "1e5f40f809fca340",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "issues/jmeter.md",
-                "mode": "source",
-                "source": false
+                "file": "img/Pasted image 20230130135612.png"
               }
             }
           },
           {
-            "id": "5898ea6e4e02b78f",
+            "id": "89b922705df57364",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/1-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0391d71e2653a3f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TIL/spring-batch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f830cd0e33520712",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spring bean 의 scope.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebdad0f4160fc0bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Optimizing Java/Untitled.md",
+                "file": "동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimizing Java/Untitled.md",
+                "file": "동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimizing Java/Untitled.md",
+                "file": "동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimizing Java/Untitled.md"
+                "file": "동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==).md"
               }
             }
           },
@@ -223,17 +185,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ebdad0f4160fc0bb",
+  "active": "89b922705df57364",
   "lastOpenFiles": [
-    "TIL/spring-batch.md",
-    "Optimizing Java/Untitled.md",
-    "spring bean 의 scope.md",
-    "issues/solved/성능 향상 하기.md",
-    "study/1-1.md",
+    "SpringBoot Initializing Spring DispatcherServlet 'dispatcherServlet'.md",
+    "img/Pasted image 20230130135612.png",
+    "동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==).md",
+    "Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까.md",
+    "Questions/Topics.md",
     "issues/jmeter.md",
-    "TIL/TIL.md",
-    "1.md",
-    "Hikari Options.md",
-    "NGidner vs. Jmeter.md"
+    "study/1-1.md",
+    "TIL/spring-batch.md",
+    "spring bean 의 scope.md",
+    "Optimizing Java/Untitled.md"
   ]
 }

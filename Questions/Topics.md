@@ -20,6 +20,7 @@ kanban-plugin: basic
 - [ ] [[웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지]]
 - [ ] [[웹서버 의 서버 간 라우팅 기능은 OSI 7 계층 중 어디서 작동하는지 설명]]
 - [ ] [[OSI 7계층과 로드 밸런싱 관계와 커버리지]] ^udrv4f
+- [ ] [[Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까]]
 
 
 ## Spring
@@ -65,7 +66,7 @@ kanban-plugin: basic
 - [ ] 접근 제어자의 종류와 이에 대해 설명
 - [ ] [[객체 지향에 대해서 설명 (4대 특성)]]
 - [ ] [[SOLID(객체지향 5대 원칙)에 대해서 설명]]
-- [ ] 동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals/ ==)
+- [ ] [[동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==)]]
 - [ ] 원시타입과 참조타입의 차이에 대한 설명
 - [ ] [[String, StringBuilder, StringBuffer]]
 - [ ] [[Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까]]
