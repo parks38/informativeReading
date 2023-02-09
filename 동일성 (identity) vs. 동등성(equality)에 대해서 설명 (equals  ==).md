@@ -34,6 +34,73 @@ public boolean equals(Object obj) {
      주소값을 찾아가서 해싱된 결과에 대한 같은 자료를 확인하는데 이때 사용 되는 데이터가 hashCode 이기 때문에 객체의 동등성을 위해 equals 오버라이드 하는 경우, hashCode도 함께 오버라이드 해주어야 한다. 
 
 
+```java
+public class Example1 {
+
+    public static class ObjectTest {
+        private String item1;
+
+        public ObjectTest(String item1) {
+            this.item1 = item1;
+        }
+
+        public String getItem1 () {
+
+            return this.item1;
+        }
+
+        public void setItem1(String item1) {
+            this.item1 = item1;
+        }
+        /**
+         *    // Object 클래스의 original equals 
+         *     public boolean equals(Object obj) {
+         *         return (this == obj);
+         *     }
+         */
+        @Override
+        public boolean equals(Object o) {
+            if (this == o)
+                return true;
+            if (o == null || getClass() != o.getClass())
+                return false;
+
+            ObjectTest objectTest = (ObjectTest)o;
+            return item1.equals(((ObjectTest) o).item1);
+        }
+        
+	    @Override
+        public int hashCode() {
+
+            return Objects.hash(item1);
+        }
+    }
+
+    public static void main (String[] args) {
+
+        ObjectTest objectTest1 = new ObjectTest("aaaaa");
+        ObjectTest objectTest2 = new ObjectTest("aaaaa");
+
+        //1975012498  1808253012
+        System.out.println(System.identityHashCode(objectTest1) + "  " 
+			        + System.identityHashCode(objectTest2));
+        // equals
+        System.out.println(objectTest1.equals(objectTest2)); //false  // @Overrid true
+        System.out.println(objectTest1.getItem1().equals(objectTest2.getItem1())); //true
+
+        // ==
+        System.out.println(objectTest1 == objectTest2); //false
+        System.out.println(objectTest1.getItem1() == objectTest2.getItem1()); //true
+
+        String ans = "aaaaa";
+        // 589431969  589431969
+        System.out.println(System.identityHashCode(ans) + "  " 
+			        + System.identityHashCode(objectTest1.getItem1()));
+        System.out.println(ans.equals(objectTest1.getItem1())); // true
+        System.out.println(ans == objectTest1.getItem1()); // true
+    }
+}
+```
 [ 참고] 
 
 https://steady-coding.tistory.com/534
