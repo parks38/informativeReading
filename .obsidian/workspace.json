@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "27ceb110c1c073fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "083a7a02620ab8f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS Topics/Script.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS Topics/Script.md",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS Topics/Script.md"
+                "file": "Untitled 1.md"
               }
             }
           },
@@ -187,8 +211,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bbd754f782e92b99",
+  "active": "083a7a02620ab8f6",
   "lastOpenFiles": [
+    "Untitled.md",
+    "CS Topics/Script.md",
     "Questions/Network/웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지.md",
     "Questions/Network/OSI 7 계층과 그 존재 이유.md",
     "동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==).md",
@@ -196,8 +222,6 @@
     "Questions/DB/Connection Pool 리소스 옵션과 성능.md",
     "Questions/DB/primary key, unique key, foreign key.md",
     "Questions/DB/DB connection pool 과 HTTP 통신.md",
-    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
-    "CS Topics/Script.md",
-    "Questions/java/Exception 던지는 방법.md"
+    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md"
   ]
 }
