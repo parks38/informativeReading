@@ -1,3 +1,9 @@
+[기능]
+* 결과 추출 
+* 엑셀 
+* 카카오 푸쉬 
+
+
 > POST ] /quantus/getResults
 
 * Data : 

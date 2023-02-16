@@ -8,55 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "faa582617183bd65",
+            "id": "9ff460604fe783e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/Network/웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지.md",
+                "file": "Questions/java/JVM_GC/JIT 컴파일러란.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bbd754f782e92b99",
+            "id": "4d4ae84235d9472f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS Topics/Script.md",
+                "file": "Questions/java/JVM_GC/AOT vs. JIT.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "27ceb110c1c073fb",
+            "id": "337ddb46380c2768",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "083a7a02620ab8f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Questions/java/JVM_GC/AOT vs. JIT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Questions/java/JVM_GC/AOT vs. JIT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Questions/java/JVM_GC/AOT vs. JIT.md"
               }
             }
           },
@@ -211,17 +195,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "083a7a02620ab8f6",
+  "active": "4d4ae84235d9472f",
   "lastOpenFiles": [
+    "Questions/java/JVM_GC/JIT 컴파일러란.md",
+    "Questions/java/JVM_GC/JVM 과 자바 실행.md",
     "Untitled.md",
-    "CS Topics/Script.md",
     "Questions/Network/웹 서버 (Apache, Nginx) 는 OSI 7 계층 중 어디서 작동하는지.md",
-    "Questions/Network/OSI 7 계층과 그 존재 이유.md",
-    "동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==).md",
-    "NGidner vs. Jmeter.md",
-    "Questions/DB/Connection Pool 리소스 옵션과 성능.md",
-    "Questions/DB/primary key, unique key, foreign key.md",
+    "Questions/java/JVM_GC/AOT vs. JIT.md",
     "Questions/DB/DB connection pool 과 HTTP 통신.md",
-    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md"
+    "Questions/서버 관련 Question.md",
+    "CS Topics/Script.md",
+    "Questions/spring/JPA save() 동작 방법.md",
+    "Pasted image 20230208120649.png"
   ]
 }
