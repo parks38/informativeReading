@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algo_practice/WEEKLY/02-21 day 6.md",
+                "file": "Questions/spring/spring bean 의 scope.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/WEEKLY/02-21 day 6.md",
+                "file": "Questions/spring/spring bean 의 scope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/WEEKLY/02-21 day 6.md",
+                "file": "Questions/spring/spring bean 의 scope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/WEEKLY/02-21 day 6.md"
+                "file": "Questions/spring/spring bean 의 scope.md"
               }
             }
           },
@@ -187,17 +187,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a2f43bd6c82217c9",
+  "active": "53a69cc0c9f10494",
   "lastOpenFiles": [
+    "Questions/Network/Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까.md",
+    "Questions/spring/servlet filter 와 spring interceptor 의 차이는.md",
+    "Questions/java/NGidner vs. Jmeter.md",
+    "Questions/DB/JPA 동일성 동등성 보장.md",
+    "Questions/DB/Hikari Options.md",
+    "Questions/Network/웹서버 의 서버 간 라우팅 기능은 OSI 7 계층 중 어디서 작동하는지 설명.md",
+    "Questions/java/동일성 (identity) vs. 동등성(equality)에 대해서 설명 (equals  ==).md",
+    "algo_practice/WEEKLY/02-21 day 6.md",
     "Questions/spring/Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까.md",
-    "Questions/spring/spring vs. springboot.md",
-    "Questions/spring/JPa propagation 전파단계.md",
-    "Questions/Network/OSI 7 계층과 그 존재 이유.md",
-    "Java/스프링_객체지향_원리와이해/design_pattern.md",
-    "Java/스프링_객체지향_원리와이해/AOP-PSA.md",
-    "algo_practice/WEEKLY/Sliding Window.md",
-    "Questions/java/JVM_GC/AOT vs. JIT.md",
-    "Questions/spring/JPA save() 동작 방법.md",
-    "Questions/java/JVM_GC/JIT 컴파일러란.md"
+    "Questions/spring/spring vs. springboot.md"
   ]
 }
