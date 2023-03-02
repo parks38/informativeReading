@@ -34,12 +34,12 @@ kanban-plugin: basic
 - [ ] [[Autowiring 의 과정]]
 - [ ] spring web mvc 의 dispatcher servlet 의 동작 원리에 대한 설명?
 - [ ] 프론트 컨트롤러 패턴이란?
-- [ ] [[servlet filter 와 spring interceptor 의 차이는]]
+- [ ] [[servlet filter vs. spring interceptor 란]]
 - [ ] spring 에서 cors 에러를 해결하기 위한 방법은?
 - [ ] bean/component 어노테이션에 대해서 설명해주고 둘의 차이점은?
 - [ ] [[POJO 란 무엇인가_ spring framework 에서 pojo 는 무엇인가]]
 - [ ] spring web mvc 에서 요청마다 thread 가 생성되어 controller 를 통해 요청을 수행할텐데, 어떻게 1개의 controller 만 생성될수 있을까?
-- [ ] filter 는 servlet 의 스펙이고 interceptor는 spring mvc 의 스펙입니다. spring application 에서 filter 와 interceptor 를 통해 예외 처리할 경우 어떻게 해야 하나요?
+- [ ] [[filter 는 servlet 의 스펙이고 interceptor는 spring mvc 의 스펙입니다. spring application 에서 filter 와 interceptor 를 통해 예외 처리할 경우 어떻게 해야 하나요]]
 - [ ] spring application 을 구동할때 메서드를 실행 시키는 방법?
 - [ ] 의존성과 설정값을 생성자 인자로 주입해야 하는 이유?
 - [ ] [[[JPA] 영속성 컨텍스트의 이점 (5가지)]]

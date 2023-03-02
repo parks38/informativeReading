@@ -4,57 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "02d44f3b4c46c277",
+        "id": "3eb2c705adb8fed6",
         "type": "tabs",
         "children": [
           {
-            "id": "1d45193ade9321eb",
+            "id": "817b90a2117c75cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/Etc Topics.md",
+                "file": "filter 는 servlet 의 스펙이고 interceptor는 spring mvc 의 스펙입니다. spring application 에서 filter 와 interceptor 를 통해 예외 처리할 경우 어떻게 해야 하나요.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e85d1859f91ad181",
+            "id": "fb7842b9698527b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Controller 개가 어떻게 수 많은 Request 를 처리 하는가.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9dd4b979cd08cc0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
-          },
-          {
-            "id": "57e79eb43e0aa30b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "script.md",
+                "file": "Questions/spring/servlet filter vs. spring interceptor 란.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "script.md",
+                "file": "Questions/spring/servlet filter vs. spring interceptor 란.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "script.md",
+                "file": "Questions/spring/servlet filter vs. spring interceptor 란.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "script.md"
+                "file": "Questions/spring/servlet filter vs. spring interceptor 란.md"
               }
             }
           },
@@ -209,17 +187,28 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "effe4614303608ff",
+  "active": "fb7842b9698527b3",
   "lastOpenFiles": [
-    "script.md",
+    "Pasted image 20230302115948.png",
+    "Pasted image 20230302115946.png",
+    "filter 는 servlet 의 스펙이고 interceptor는 spring mvc 의 스펙입니다. spring application 에서 filter 와 interceptor 를 통해 예외 처리할 경우 어떻게 해야 하나요.md",
+    "Questions/spring/servlet filter vs. spring interceptor 란.md",
+    "Pasted image 20230302112455.png",
+    "Pasted image 20230302112426.png",
+    "Pasted image 20230302110558.png",
+    "Pasted image 20230302093436.png",
+    "Questions/Topics.md",
+    "Questions/spring/Autowiring 의 과정.md",
     "Questions/Etc Topics.md",
+    "Controller 개가 어떻게 수 많은 Request 를 처리 하는가.md",
+    "img/Pasted image 20230208120649.png",
+    "script.md",
     "Questions/spring/Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까.md",
     "Questions/java/JVM_GC/JVM 과 자바 실행.md",
     "Questions/JVM 관련 TOPIC.md",
     "Questions/서버 관련 Question.md",
     "Questions/spring/spring bean 의 scope.md",
     "Questions/Network/Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까.md",
-    "Questions/spring/servlet filter 와 spring interceptor 의 차이는.md",
     "Questions/java/NGidner vs. Jmeter.md",
     "Questions/DB/JPA 동일성 동등성 보장.md"
   ]
