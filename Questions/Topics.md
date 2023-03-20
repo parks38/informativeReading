@@ -49,6 +49,7 @@ kanban-plugin: basic
 - [ ] [[JPA save() 동작 방법]]
 - [ ] [[spring vs. springboot]]
 - [ ] [[Spring 구조와 기본동작 순서 1]]
+- [ ] [[SPRING 에서 interface 활용 방법]]
 
 
 ## Java
@@ -89,6 +90,7 @@ kanban-plugin: basic
 
 - [ ] [[Connection Pool 리소스 옵션과 성능]]
 - [ ] [[DB connection pool 과 HTTP 통신]]
+- [ ] [[INDEX]]
 
 
 ## Algo
