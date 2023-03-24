@@ -8,42 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab82d9dd819b8277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "INDEX.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "866a228a6d758d4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index_chat gpt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4874d440295353ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTERFACE VS. ABSTRACT CLASS.md",
+                "file": "Questions/topic_lis5t/INTERFACE VS. ABSTRACT CLASS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c8bbb359e273ce5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIL/etc/junit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9f02b76631b745c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIL/work/@Transactional in @Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "faef74947932e1c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/topic_lis5t/SPRING 에서 interface 활용 방법.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INDEX.md",
+                "file": "Questions/topic_lis5t/SPRING 에서 interface 활용 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INDEX.md",
+                "file": "Questions/topic_lis5t/SPRING 에서 interface 활용 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INDEX.md"
+                "file": "Questions/topic_lis5t/SPRING 에서 interface 활용 방법.md"
               }
             }
           },
@@ -198,20 +211,28 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ab82d9dd819b8277",
+  "active": "53a69cc0c9f10494",
   "lastOpenFiles": [
-    "index_chat gpt.md",
-    "INDEX.md",
-    "B-tree_Index.md",
-    "SPRING 에서 interface 활용 방법 예시.md",
-    "INTERFACE VS. ABSTRACT CLASS.md",
-    "SPRING 에서 interface 활용 방법.md",
-    "spring_boot serviceimpl oop 관점.md",
+    "Questions/topic_lis5t/INDEX.md",
+    "TIL/work/JPA merge() 시에 @Lock 을 걸지 않으도 되는 이유.md",
+    "Questions/topic_lis5t",
+    "TIL/work/@Transactional in @Service.md",
+    "Questions/topic_lis5t/spring_boot serviceimpl oop 관점.md",
+    "TIL/work/Collections.singletonList.md",
+    "study/index_chat gpt.md",
+    "TIL/etc/junit.md",
+    "TIL/work",
+    "TIL/etc",
+    "algo_practice/daily/프린터(스택).md",
+    "Questions/topic_lis5t/B-tree_Index.md",
+    "Questions/topic_lis5t/SPRING 에서 interface 활용 방법 예시.md",
+    "Questions/topic_lis5t/INTERFACE VS. ABSTRACT CLASS.md",
+    "Questions/topic_lis5t/SPRING 에서 interface 활용 방법.md",
     "algo_practice/daily/소수 찾기.md",
     "img/Pasted image 20230320111037.png",
     "algo_practice/daily/타겟_넘버 (dfs).md",
     "algo_practice/daily",
-    "6주차.md",
+    "study/6주차.md",
     "img/Pasted image 20230320185331.png",
     "img/Pasted image 20230320185023.png",
     "Questions/Topics.md",
@@ -223,19 +244,13 @@
     "Questions/JVM 관련 TOPIC.md",
     "img/Pasted image 20230309095148.png",
     "img/Pasted image 20230316190656.png",
-    "_1.md",
+    "study/_1.md",
     "CS Topics/questions.md",
-    "1.md",
+    "study/1.md",
     "아이템 7. 다 쓴 객체 참조를 해제하라.md",
     "README.md",
     "Questions/java/Controller 개가 어떻게 수 많은 Request 를 처리 하는가.md",
     "study/Untitled 1 1.md",
-    "study/Untitled.md",
-    "Questions/spring/filter 는 servlet 의 스펙이고 interceptor는 spring mvc 의 스펙입니다. spring application 에서 filter 와 interceptor 를 통해 예외 처리할 경우 어떻게 해야 하나요.md",
-    "Questions/spring/servlet filter vs. spring interceptor 란.md",
-    "Questions/spring/Autowiring 의 과정.md",
-    "Questions/Etc Topics.md",
-    "study/script.md",
-    "Questions/spring/Checked Exception vs. unchecked exception. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까.md"
+    "study/Untitled.md"
   ]
 }
