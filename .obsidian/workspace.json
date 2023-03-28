@@ -101,9 +101,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e51ad8c194db3a7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIL/work/Cascade.PERSIST.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c58d8571ab0a72d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/6_주차.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -169,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algo_practice/WEEKLY/Untitled.md",
+                "file": "study/6_주차.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algo_practice/WEEKLY/Untitled.md",
+                "file": "study/6_주차.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algo_practice/WEEKLY/Untitled.md"
+                "file": "study/6_주차.md"
               }
             }
           },
@@ -258,10 +282,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "5de5599d82a12994",
+  "active": "c58d8571ab0a72d2",
   "lastOpenFiles": [
-    "JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md",
+    "study/6주차.md",
+    "study/6_주차.md",
+    "TIL/work/Cascade.PERSIST.md",
     "algo_practice/WEEKLY/Untitled.md",
+    "JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md",
     "Pasted image 20230328103611.png",
     "TIL/work/JPA merge() 시에 @Lock 을 걸지 않으도 되는 이유.md",
     "TIL/work/@Transactional in @Service.md",
@@ -284,7 +311,6 @@
     "img/Pasted image 20230320111037.png",
     "algo_practice/daily/타겟_넘버 (dfs).md",
     "algo_practice/daily",
-    "study/6주차.md",
     "img/Pasted image 20230320185331.png",
     "img/Pasted image 20230320185023.png",
     "Questions/Topics.md",
@@ -297,8 +323,6 @@
     "img/Pasted image 20230309095148.png",
     "study/_1.md",
     "CS Topics/questions.md",
-    "study/1.md",
-    "아이템 7. 다 쓴 객체 참조를 해제하라.md",
-    "README.md"
+    "study/1.md"
   ]
 }
