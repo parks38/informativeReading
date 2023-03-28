@@ -89,9 +89,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5de5599d82a12994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algo_practice/WEEKLY/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -157,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md",
+                "file": "algo_practice/WEEKLY/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md",
+                "file": "algo_practice/WEEKLY/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md"
+                "file": "algo_practice/WEEKLY/Untitled.md"
               }
             }
           },
@@ -246,11 +258,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ce4d8f68e53f1c4e",
+  "active": "5de5599d82a12994",
   "lastOpenFiles": [
+    "JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md",
+    "algo_practice/WEEKLY/Untitled.md",
     "Pasted image 20230328103611.png",
     "TIL/work/JPA merge() 시에 @Lock 을 걸지 않으도 되는 이유.md",
-    "JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md",
     "TIL/work/@Transactional in @Service.md",
     "TIL/work/Collections.singletonList.md",
     "TIL/work/Untitled.md",
@@ -282,7 +295,6 @@
     "img/Pasted image 20230320111047.png",
     "Questions/JVM 관련 TOPIC.md",
     "img/Pasted image 20230309095148.png",
-    "img/Pasted image 20230316190656.png",
     "study/_1.md",
     "CS Topics/questions.md",
     "study/1.md",
