@@ -38,3 +38,8 @@ JPA는 save() 시에 낙관적인 락을 자동 세팅해 준다고 합니다. (
 
 
 https://velog.io/@haron/JPA-JPA%EC%9D%98-%EB%82%99%EA%B4%80%EC%A0%81-%EC%9E%A0%EA%B8%88Optimistic-Lock-%EB%B9%84%EA%B4%80%EC%A0%81-%EC%9E%A0%EA%B8%88Pessimistic-Lock
+
+
+
+
+위 코드에서 version 필드에 @Version 애노테이션이 붙어 있습니다. 이를 통해 SimpleJpaRepository 클래스에서는 엔티티 객체의 버전 정보를 자동으로 체크하고, 업데이트할 수 있는지 여부를 판단합니다. 따라서 SimpleJpaRepository 클래스에서 제공하는 save() 메서드를 호출할 때는 별도로 낙관적 락을 설정하지 않아도 자동으로 낙관적 락이 사용됩니다.
