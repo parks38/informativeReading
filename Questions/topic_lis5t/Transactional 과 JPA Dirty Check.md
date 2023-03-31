@@ -51,7 +51,7 @@ Service 단에 묶지 않고 트랜잭션을 repository 단위로 트랜잭션�
 
 > ➡️ @Transactional(readOnly = true)를 공통으로 사용해야 하는 중요한 이유? 
 
-트랜잭션 어노테이션이 없을 경우 @OneToMany, @ManyToMany 등 Lazy loding(지연로딩)을 Default로 사용하는 엔티티들을 정상적으로 조회할 수 없습니다.
+트랜잭션 어노테이션이 없을 경우 @OneToMany, @ManyToMany 등 Lazy loding(지연로딩)을 Default로 사용하는 엔티티들을 정상적으로 조회할 수 없습니다. LazyInitializationException 가 바로 그런 경우입니다. 그래서 OneToMany나 ManyToMany와 같이 레이지 로딩을 지원하면서 롤백 기능이 없어 성능 향상이 어느정도 되어있는 readOnly 옵션을 사용한 것입니다.
 
 -  Lazy loading(지연로딩)
 	- JPA 구현체들은 프록시 패턴을 통해서 객체를 조회할 때 연관된 객체를 바로 조회하지 않고 실제로 사용할 때만 조회
@@ -61,3 +61,6 @@ Transaction이 붙어있지 않을 경우, 준영속 상태에 있는 엔티티�
 지연로딩(Lazy loading)을 사용해서 프록시 객체로 존재했을 때, 
 해당 객체에서 실제로 값을 뽑으려고 하는 행위는 불가능한 것이죠.
 따라서 트랜잭션이 있어야 지연로딩(Lazy loading)이 필요한 엔티티들을 정상 조회 할 수 있습니다.
+
+----
+https://github.com/jojoldu/freelec-springboot2-webservice/issues/47

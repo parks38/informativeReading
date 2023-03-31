@@ -4,18 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "14a69548e400f3d2",
+        "id": "234626c89f4e5ff9",
         "type": "tabs",
         "children": [
           {
-            "id": "6130b4c45b3ecdb2",
+            "id": "26991a2b1dc28b71",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TIL/work/chat gpt 쳇봇.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e669c160a02c956",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/topic_lis5t/Transactional 과 JPA Dirty Check.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69202d49a76899e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "너블.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4f6229184e50a9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "순환 참조 cha.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -81,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "순환 참조 cha.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "순환 참조 cha.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "순환 참조 cha.md"
+              }
             }
           },
           {
@@ -166,23 +211,30 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "6130b4c45b3ecdb2",
+  "active": "d4f6229184e50a9e",
   "lastOpenFiles": [
-    "스프링의 @Transactional.md",
-    "Transactional 과 JPA Dirty Check.md",
-    "Pasted image 20230329085626.png",
+    "너블.md",
+    "순환 참조 cha.md",
+    "Questions/topic_lis5t/Transactional 과 JPA Dirty Check.md",
+    "ask chatGPT.md",
+    "README.md",
+    "TIL/work/JPA 무한 참조_recursion.md",
+    "TIL/work/chat gpt 쳇봇.md",
+    "algo_practice/WEEKLY/입국 심사 _ 최조 시간.md",
+    "algo_practice/WEEKLY/3085_사탕 게임.md",
+    "algo_practice/WEEKLY/전화번호_목록.md",
+    "Questions/topic_lis5t/스프링의 @Transactional.md",
+    "Questions/img/Pasted image 20230329085626.png",
     "TIL/work/@Transactional in @Service.md",
     "TIL/work/JPA merge() 시에 @Lock 을 걸지 않으도 되는 이유.md",
     "TIL/work/Cascade.PERSIST.md",
     "TIL/work/Collections.singletonList.md",
     "TIL/work/Untitled.md",
-    "ask chatGPT.md",
     "Questions/img/Pasted image 20230328103611.png",
     "Questions/topic_lis5t/JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md",
     "study/index_chat gpt.md",
     "study/6주차.md",
     "study/6_주차.md",
-    "algo_practice/WEEKLY/Untitled.md",
     "Questions/topic_lis5t/INTERFACE VS. ABSTRACT CLASS.md",
     "Questions/topic_lis5t/INDEX.md",
     "Questions/topic_lis5t",
@@ -192,21 +244,14 @@
     "TIL/etc",
     "algo_practice/daily/프린터(스택).md",
     "Questions/topic_lis5t/B-tree_Index.md",
-    "Questions/topic_lis5t/SPRING 에서 interface 활용 방법 예시.md",
-    "Questions/topic_lis5t/SPRING 에서 interface 활용 방법.md",
-    "algo_practice/daily/소수 찾기.md",
     "img/Pasted image 20230320111037.png",
-    "algo_practice/daily/타겟_넘버 (dfs).md",
     "algo_practice/daily",
     "img/Pasted image 20230320185331.png",
     "img/Pasted image 20230320185023.png",
-    "Questions/Topics.md",
     "img/Pasted image 20230320184300.png",
     "img/Pasted image 20230320184118.png",
     "img/Pasted image 20230320182922.png",
     "img/Pasted image 20230320111330.png",
-    "img/Pasted image 20230320111047.png",
-    "Questions/JVM 관련 TOPIC.md",
-    "study/_1.md"
+    "img/Pasted image 20230320111047.png"
   ]
 }
