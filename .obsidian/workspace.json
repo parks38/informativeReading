@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "234626c89f4e5ff9",
+        "id": "723388eea5870e89",
         "type": "tabs",
         "children": [
           {
-            "id": "26991a2b1dc28b71",
+            "id": "7e4b81ea86e20298",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/work/chat gpt 쳇봇.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e669c160a02c956",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions/topic_lis5t/Transactional 과 JPA Dirty Check.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69202d49a76899e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "너블.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4f6229184e50a9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "순환 참조 cha.md",
+                "file": "InputStream, BufferedReader, Scanner.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 241.5
   },
   "right": {
     "id": "7aa96f3acc9c8664",
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "순환 참조 cha.md",
+                "file": "InputStream, BufferedReader, Scanner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "순환 참조 cha.md",
+                "file": "InputStream, BufferedReader, Scanner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "순환 참조 cha.md"
+                "file": "InputStream, BufferedReader, Scanner.md"
               }
             }
           },
@@ -211,47 +174,48 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "d4f6229184e50a9e",
+  "active": "7e4b81ea86e20298",
   "lastOpenFiles": [
-    "너블.md",
+    "Pasted image 20230405091853.png",
+    "Pasted image 20230405091523.png",
+    "Pasted image 20230405091444.png",
+    "Pasted image 20230405091019.png",
+    "JPA 순환 참조 해결 방법.md",
     "순환 참조 cha.md",
+    "Questions/java/try-with-resource 에 대해 설명.md",
+    "Questions/java/String, StringBuilder, StringBuffer.md",
+    "Questions/java/Stream의 NPE.md",
+    "Questions/java/SOLID(객체지향 5대 원칙)에 대해서 설명.md",
+    "Questions/java/GC 가 무엇인지  필요한 이유  동작 방식.md",
+    "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
+    "Questions/Network/Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까.md",
+    "Questions/Network/TCP vs. UDP.md",
+    "OSI 7 계층과 그 존재 이유.md",
+    "InputStream, BufferedReader, Scanner.md",
+    "너블.md",
+    "TIL/work/chat gpt 쳇봇.md",
     "Questions/topic_lis5t/Transactional 과 JPA Dirty Check.md",
+    "Questions/Etc Topics.md",
+    "Questions/Network/OSI 7 계층과 그 존재 이유 1.md",
+    "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
+    "File Create & Folder on OS.md",
+    "Untitled",
     "ask chatGPT.md",
     "README.md",
     "TIL/work/JPA 무한 참조_recursion.md",
-    "TIL/work/chat gpt 쳇봇.md",
     "algo_practice/WEEKLY/입국 심사 _ 최조 시간.md",
     "algo_practice/WEEKLY/3085_사탕 게임.md",
     "algo_practice/WEEKLY/전화번호_목록.md",
-    "Questions/topic_lis5t/스프링의 @Transactional.md",
     "Questions/img/Pasted image 20230329085626.png",
-    "TIL/work/@Transactional in @Service.md",
-    "TIL/work/JPA merge() 시에 @Lock 을 걸지 않으도 되는 이유.md",
-    "TIL/work/Cascade.PERSIST.md",
-    "TIL/work/Collections.singletonList.md",
-    "TIL/work/Untitled.md",
     "Questions/img/Pasted image 20230328103611.png",
-    "Questions/topic_lis5t/JPA 사용시 @Lock 을 걸지 않아도 되는 이유.md",
-    "study/index_chat gpt.md",
-    "study/6주차.md",
-    "study/6_주차.md",
-    "Questions/topic_lis5t/INTERFACE VS. ABSTRACT CLASS.md",
-    "Questions/topic_lis5t/INDEX.md",
     "Questions/topic_lis5t",
-    "Questions/topic_lis5t/spring_boot serviceimpl oop 관점.md",
-    "TIL/etc/junit.md",
     "TIL/work",
     "TIL/etc",
-    "algo_practice/daily/프린터(스택).md",
-    "Questions/topic_lis5t/B-tree_Index.md",
     "img/Pasted image 20230320111037.png",
     "algo_practice/daily",
     "img/Pasted image 20230320185331.png",
     "img/Pasted image 20230320185023.png",
     "img/Pasted image 20230320184300.png",
-    "img/Pasted image 20230320184118.png",
-    "img/Pasted image 20230320182922.png",
-    "img/Pasted image 20230320111330.png",
-    "img/Pasted image 20230320111047.png"
+    "img/Pasted image 20230320184118.png"
   ]
 }
