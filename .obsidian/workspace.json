@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bba232244e803975",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "InputStream, BufferedReader, Scanner.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "InputStream, BufferedReader, Scanner.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "InputStream, BufferedReader, Scanner.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -174,8 +187,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7e4b81ea86e20298",
+  "active": "bba232244e803975",
   "lastOpenFiles": [
+    "InputStream, BufferedReader, Scanner.md",
+    "Untitled.md",
+    "README.md",
+    "File Create & Folder on OS.md",
     "Pasted image 20230405091853.png",
     "Pasted image 20230405091523.png",
     "Pasted image 20230405091444.png",
@@ -191,17 +208,14 @@
     "Questions/Network/Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까.md",
     "Questions/Network/TCP vs. UDP.md",
     "OSI 7 계층과 그 존재 이유.md",
-    "InputStream, BufferedReader, Scanner.md",
     "너블.md",
     "TIL/work/chat gpt 쳇봇.md",
     "Questions/topic_lis5t/Transactional 과 JPA Dirty Check.md",
     "Questions/Etc Topics.md",
     "Questions/Network/OSI 7 계층과 그 존재 이유 1.md",
     "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
-    "File Create & Folder on OS.md",
     "Untitled",
     "ask chatGPT.md",
-    "README.md",
     "TIL/work/JPA 무한 참조_recursion.md",
     "algo_practice/WEEKLY/입국 심사 _ 최조 시간.md",
     "algo_practice/WEEKLY/3085_사탕 게임.md",
@@ -215,7 +229,6 @@
     "algo_practice/daily",
     "img/Pasted image 20230320185331.png",
     "img/Pasted image 20230320185023.png",
-    "img/Pasted image 20230320184300.png",
-    "img/Pasted image 20230320184118.png"
+    "img/Pasted image 20230320184300.png"
   ]
 }

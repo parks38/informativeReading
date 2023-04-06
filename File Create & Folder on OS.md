@@ -12,7 +12,7 @@ public class Main {
             /**  
              * OS Process를 수행시키고 흐름을 제어할 수 있다  
              * Process prs = ProcessBuilder.start();  
-             * - prs.waitFor();             * - prs.destroy();             * -> builder.command("cmd.exe", "/c", ".\\test.bat"); // Windows OS             */            // 프로세스 빌더를 통하여 외부 프로그램 실행  
+             * - prs.waitFor();             * - prs.destroy();             * > builder.command("cmd.exe", "/c", ".\\test.bat"); // Windows OS             */            // 프로세스 빌더를 통하여 외부 프로그램 실행  
             Process process = new ProcessBuilder(cmd).start();  
   
             // read the output of the process  
