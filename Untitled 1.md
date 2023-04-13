@@ -1,0 +1,1 @@
+https://velog.io/@woongi9/%EC%A7%80%EC%97%B0-%EB%A1%9C%EB%94%A9-EntityGraph%EC%99%80-Transactional

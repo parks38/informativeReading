@@ -30,9 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7ff29e6512d04529",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "File Create & Folder on OS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b003296df1d149a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "유형.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3336b9b7316243b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algo_practice/WEEKLY/네트워크_DFS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 200
   },
   "right": {
     "id": "7aa96f3acc9c8664",
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "유형.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "유형.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "유형.md"
               }
             }
           },
@@ -187,12 +223,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bba232244e803975",
+  "active": "7b003296df1d149a",
   "lastOpenFiles": [
-    "InputStream, BufferedReader, Scanner.md",
-    "Untitled.md",
-    "README.md",
+    "algo_practice/WEEKLY/네트워크_DFS.md",
+    "유형.md",
     "File Create & Folder on OS.md",
+    "README.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Untitled",
+    "InputStream, BufferedReader, Scanner.md",
     "Pasted image 20230405091853.png",
     "Pasted image 20230405091523.png",
     "Pasted image 20230405091444.png",
@@ -214,12 +254,8 @@
     "Questions/Etc Topics.md",
     "Questions/Network/OSI 7 계층과 그 존재 이유 1.md",
     "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
-    "Untitled",
     "ask chatGPT.md",
     "TIL/work/JPA 무한 참조_recursion.md",
-    "algo_practice/WEEKLY/입국 심사 _ 최조 시간.md",
-    "algo_practice/WEEKLY/3085_사탕 게임.md",
-    "algo_practice/WEEKLY/전화번호_목록.md",
     "Questions/img/Pasted image 20230329085626.png",
     "Questions/img/Pasted image 20230328103611.png",
     "Questions/topic_lis5t",

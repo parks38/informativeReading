@@ -5,14 +5,19 @@
 public class Main {  
     /**  
      * JDK 1.4 버전 이하에서는 exec() 메소드를 이용하여 외부 프로그램을 실행 시킬 수 있고  
-     * JDK 1.5 버전 이상에서는 ProcessBuilder 객체를 이용하여 외부 프로그램을 실행 시킬 수 있다.  
+     * JDK 1.5 버전 이상에서는 ProcessBuilder 객체를 이용하여 외부 프로그램을 실행 시킬 수 있다. 
      */    public static String executeCmd(String[] cmd) {  
         try {  
             // create a process builder to execute the cmd instruction  
             /**  
              * OS Process를 수행시키고 흐름을 제어할 수 있다  
              * Process prs = ProcessBuilder.start();  
-             * - prs.waitFor();             * - prs.destroy();             * > builder.command("cmd.exe", "/c", ".\\test.bat"); // Windows OS             */            // 프로세스 빌더를 통하여 외부 프로그램 실행  
+             * - prs.waitFor();             
+             * - prs.destroy();             
+             * > builder.command("cmd.exe", "/c", ".\\test.bat"); 
+             * // Windows OS                        
+             * // 프로세스 빌더를 통하여 외부 프로그램 실행  
+             * */ 
             Process process = new ProcessBuilder(cmd).start();  
   
             // read the output of the process  
