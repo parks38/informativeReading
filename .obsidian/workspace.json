@@ -4,71 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "723388eea5870e89",
+        "id": "23e91f9a6211f995",
         "type": "tabs",
         "children": [
           {
-            "id": "7e4b81ea86e20298",
+            "id": "67937dd12f12d219",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InputStream, BufferedReader, Scanner.md",
+                "file": "study/Untitled 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bba232244e803975",
+            "id": "0b616fe149f6dfcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Spring Data JPA Pagination.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7ff29e6512d04529",
+            "id": "54b19e8937a667b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File Create & Folder on OS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b003296df1d149a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "유형.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3336b9b7316243b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algo_practice/WEEKLY/네트워크_DFS.md",
+                "file": "JPA CascadeType.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "유형.md",
+                "file": "JPA CascadeType.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "유형.md",
+                "file": "JPA CascadeType.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "유형.md"
+                "file": "JPA CascadeType.md"
               }
             }
           },
@@ -223,22 +199,25 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7b003296df1d149a",
+  "active": "54b19e8937a667b7",
   "lastOpenFiles": [
-    "algo_practice/WEEKLY/네트워크_DFS.md",
-    "유형.md",
-    "File Create & Folder on OS.md",
+    "Spring Data JPA Pagination.md",
+    "JPA CascadeType.md",
+    "study/Untitled 2.md",
+    "study/Untitled 1 2.md",
     "README.md",
-    "Untitled.md",
-    "Untitled 1.md",
+    "study/OSI 7 계층과 그 존재 이유.md",
+    "img/Pasted image 20230405091019.png",
+    "study/유형.md",
+    "algo_practice/WEEKLY/네트워크_DFS.md",
+    "study/File Create & Folder on OS.md",
     "Untitled",
-    "InputStream, BufferedReader, Scanner.md",
-    "Pasted image 20230405091853.png",
-    "Pasted image 20230405091523.png",
-    "Pasted image 20230405091444.png",
-    "Pasted image 20230405091019.png",
-    "JPA 순환 참조 해결 방법.md",
-    "순환 참조 cha.md",
+    "study/InputStream, BufferedReader, Scanner.md",
+    "img/Pasted image 20230405091853.png",
+    "img/Pasted image 20230405091523.png",
+    "img/Pasted image 20230405091444.png",
+    "study/JPA 순환 참조 해결 방법.md",
+    "study/순환 참조 cha.md",
     "Questions/java/try-with-resource 에 대해 설명.md",
     "Questions/java/String, StringBuilder, StringBuffer.md",
     "Questions/java/Stream의 NPE.md",
@@ -247,15 +226,12 @@
     "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
     "Questions/Network/Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까.md",
     "Questions/Network/TCP vs. UDP.md",
-    "OSI 7 계층과 그 존재 이유.md",
-    "너블.md",
+    "study/너블.md",
     "TIL/work/chat gpt 쳇봇.md",
     "Questions/topic_lis5t/Transactional 과 JPA Dirty Check.md",
     "Questions/Etc Topics.md",
     "Questions/Network/OSI 7 계층과 그 존재 이유 1.md",
     "Questions/Network/OSI 7계층과 로드 밸런싱 관계와 커버리지.md",
-    "ask chatGPT.md",
-    "TIL/work/JPA 무한 참조_recursion.md",
     "Questions/img/Pasted image 20230329085626.png",
     "Questions/img/Pasted image 20230328103611.png",
     "Questions/topic_lis5t",
