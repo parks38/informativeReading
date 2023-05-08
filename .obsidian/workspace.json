@@ -37,38 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/work/JPA CascadeType.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8072896fef9e9e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TIL/work/QueryDsl) fetchResults()가 deprecated 된 이유.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf1f83f03a2d7131",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TIL/work/JPA CascadeType.md",
+                "file": "prep/May Week 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/work/JPA CascadeType.md",
+                "file": "prep/May Week 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TIL/work/JPA CascadeType.md",
+                "file": "prep/May Week 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/work/JPA CascadeType.md"
+                "file": "prep/May Week 2.md"
               }
             }
           },
@@ -233,10 +209,14 @@
   },
   "active": "53a69cc0c9f10494",
   "lastOpenFiles": [
+    "TIL/work/JPA CascadeType.md",
+    "prep/May Week 2.md",
+    "prep/weekly_cs",
+    "prep/weekly_algo",
+    "prep",
+    "TIL/work/QueryDsl) fetchResults()가 deprecated 된 이유.md",
     "TIL/work/Spring Data JPA Pagination.md",
     "books",
-    "TIL/work/JPA CascadeType.md",
-    "TIL/work/QueryDsl) fetchResults()가 deprecated 된 이유.md",
     "etc",
     "kafka project/Untitled.md",
     "kafka project",
