@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bf69b97965c925c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "모음 사전 (Lv2).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prep/May Week 2.md",
+                "file": "모음 사전 (Lv2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prep/May Week 2.md",
+                "file": "모음 사전 (Lv2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prep/May Week 2.md"
+                "file": "모음 사전 (Lv2).md"
               }
             }
           },
@@ -207,10 +219,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "53a69cc0c9f10494",
+  "active": "bf69b97965c925c5",
   "lastOpenFiles": [
-    "TIL/work/JPA CascadeType.md",
     "prep/May Week 2.md",
+    "모음 사전 (Lv2).md",
+    "prep/weekly_algo/week1",
+    "TIL/work/JPA CascadeType.md",
     "prep/weekly_cs",
     "prep/weekly_algo",
     "prep",
@@ -244,14 +258,12 @@
     "Questions/Network/TCP vs. UDP.md",
     "etc/study/너블.md",
     "TIL/work/chat gpt 쳇봇.md",
-    "Questions/topic_lis5t/Transactional 과 JPA Dirty Check.md",
     "Questions/img/Pasted image 20230329085626.png",
     "Questions/img/Pasted image 20230328103611.png",
     "Questions/topic_lis5t",
     "TIL/work",
     "TIL/etc",
     "etc/img/Pasted image 20230320111037.png",
-    "algo_practice/daily",
     "etc/img/Pasted image 20230320185331.png",
     "etc/img/Pasted image 20230320185023.png",
     "etc/img/Pasted image 20230320184300.png"
