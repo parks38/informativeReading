@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "모음 사전 (Lv2).md",
+                "file": "prep/May Week 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "334c9f5a5eb799a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "모음 사전 (Lv2).md",
+                "file": "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "모음 사전 (Lv2).md",
+                "file": "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "모음 사전 (Lv2).md"
+                "file": "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md"
               }
             }
           },
@@ -219,11 +231,12 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bf69b97965c925c5",
+  "active": "53a69cc0c9f10494",
   "lastOpenFiles": [
+    "1_ 사용자 수에 따른 규모 확장성.md",
     "prep/May Week 2.md",
-    "모음 사전 (Lv2).md",
-    "prep/weekly_algo/week1",
+    "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md",
+    "prep/weekly_algo/may_week_2",
     "TIL/work/JPA CascadeType.md",
     "prep/weekly_cs",
     "prep/weekly_algo",
@@ -257,7 +270,6 @@
     "Questions/Network/Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까.md",
     "Questions/Network/TCP vs. UDP.md",
     "etc/study/너블.md",
-    "TIL/work/chat gpt 쳇봇.md",
     "Questions/img/Pasted image 20230329085626.png",
     "Questions/img/Pasted image 20230328103611.png",
     "Questions/topic_lis5t",
