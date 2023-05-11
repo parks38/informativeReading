@@ -8,7 +8,7 @@
 
 [personal work]
 * 준비운동 PART1. 튼튼한 기본기
-	- [ ]  [약수 구하기](https://www.acmicpc.net/problem/2501) (🥉 브론즈 3티어)
+	- [X]  [약수 구하기](https://www.acmicpc.net/problem/2501) (🥉 브론즈 3티어)
 	- [ ]   [이진수](https://www.acmicpc.net/problem/3460) (🥉 브론즈 3티어)
 	- [ ]   [최소, 최대](https://www.acmicpc.net/problem/10818) (🥉 브론즈 3티어)
 	- [ ]   [지능형 기차 2](https://www.acmicpc.net/problem/2460) (🥉 브론즈 3티어)
@@ -16,3 +16,4 @@
 
 
 - [ ] 네트워크 CS Topic 모음 리스트 10개 뽑기 
+- [ ] ➡️

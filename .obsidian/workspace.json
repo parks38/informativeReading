@@ -61,14 +61,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md",
+                "file": "prep/May Week 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12d5e88210b936a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "prep/May Week 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02d72edfec8a50ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_ 사용자 수에 따른 규모 확장성.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -142,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md",
+                "file": "1_ 사용자 수에 따른 규모 확장성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md",
+                "file": "1_ 사용자 수에 따른 규모 확장성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md"
+                "file": "1_ 사용자 수에 따른 규모 확장성.md"
               }
             }
           },
@@ -231,10 +255,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "53a69cc0c9f10494",
+  "active": "02d72edfec8a50ae",
   "lastOpenFiles": [
-    "1_ 사용자 수에 따른 규모 확장성.md",
+    "Pasted image 20230511122145.png",
+    "Pasted image 20230511121928.png",
     "prep/May Week 2.md",
+    "✅.md",
+    "1_ 사용자 수에 따른 규모 확장성.md",
     "prep/weekly_algo/may_week_2/모음 사전 (Lv2).md",
     "prep/weekly_algo/may_week_2",
     "TIL/work/JPA CascadeType.md",
@@ -268,8 +295,6 @@
     "Questions/java/GC 가 무엇인지  필요한 이유  동작 방식.md",
     "Questions/java/java 8 에서 추가된 기능에 대해 설명.md",
     "Questions/Network/Servlet, Tomcat, Apache, Nginx.. 이게 다 뭘까.md",
-    "Questions/Network/TCP vs. UDP.md",
-    "etc/study/너블.md",
     "Questions/img/Pasted image 20230329085626.png",
     "Questions/img/Pasted image 20230328103611.png",
     "Questions/topic_lis5t",
@@ -277,7 +302,6 @@
     "TIL/etc",
     "etc/img/Pasted image 20230320111037.png",
     "etc/img/Pasted image 20230320185331.png",
-    "etc/img/Pasted image 20230320185023.png",
-    "etc/img/Pasted image 20230320184300.png"
+    "etc/img/Pasted image 20230320185023.png"
   ]
 }
